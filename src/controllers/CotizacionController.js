@@ -317,8 +317,8 @@ exports.actualizarProveedorCotizacion = async (req, res) => {
     // Obtener el correo del remitente
     const remitente = usuario.email_usuario;
 
-    // Buscar la cotización y el proveedor en la base de datos
-    const cotizacion = await Cotizacion.findByPk(id_cotizacion);
+    // Buscar la cotización y el proveedor en la base de datos, incluyendo los detalles de la cotización
+    const cotizacion = await Cotizacion.findByPk(id_cotizacion, { include: 'detalles' });
     const proveedor = await Proveedor.findByPk(id_proveedores);
     if (!cotizacion) {
       console.error(`Cotización no encontrada: ${id_cotizacion}`);
@@ -337,6 +337,28 @@ exports.actualizarProveedorCotizacion = async (req, res) => {
       return res.status(404).json({ message: 'Correo del proveedor no encontrado' });
     }
 
+    // Verificar si existen detalles de la cotización
+    if (!cotizacion.detalles || cotizacion.detalles.length === 0) {
+      console.error(`Detalles de cotización no encontrados para cotización: ${id_cotizacion}`);
+      return res.status(404).json({ message: 'Detalles de cotización no encontrados' });
+    }
+
+    const htmlContent = `
+      <h1>Detalle de Cotización Actualizada</h1>
+      <p>ID Cotización: ${cotizacion.id_cotizacion}</p>
+      <p>Fecha de Emisión: ${cotizacion.fecha_emision}</p>
+      <p>Estado de Seguimiento: ${cotizacion.estado_seguimiento}</p>
+      <h2>Detalles</h2>
+      <ul>
+        ${cotizacion.detalles.map(detalle => `
+          <li>
+            <p>ID Producto: ${detalle.id_producto}</p>
+            <p>Cantidad Solicitada: ${detalle.cantidad_solicitada}</p>
+          </li>
+        `).join('')}
+      </ul>
+    `;
+
     // Configurar el transporte de nodemailer
     const transporter = nodemailer.createTransport({
       host: 'smtp.gmail.com',
@@ -354,7 +376,7 @@ exports.actualizarProveedorCotizacion = async (req, res) => {
       from: remitente,
       to: correoProveedor,
       subject: 'Actualización de cotización',
-      text: `Se ha actualizado la cotización con estado: ${estadoSeguimiento}`,
+      html: htmlContent,
     };
 
     // Enviar el correo electrónico
@@ -365,7 +387,7 @@ exports.actualizarProveedorCotizacion = async (req, res) => {
       } else {
         console.log('Correo electrónico enviado:', info.response);
 
-        // Actualizar la cotización con el estado de seguimiento
+        // Actualizar la cotización con el estado de seguimiento y marcar que se envió el correo
         cotizacion.estado_seguimiento = estadoSeguimiento;
         cotizacion.correo_enviado = true;
         await cotizacion.save();
@@ -471,4 +493,3 @@ exports.guardarSolicitudCotizacion = async (req, res) => {
     return res.status(500).json({ error: 'Ocurrió un error al procesar la solicitud' });
   }
 };
-

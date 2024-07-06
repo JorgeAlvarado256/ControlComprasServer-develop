@@ -18,7 +18,7 @@ Cotizacion.init({
   },
   estado_seguimiento: {
     type: DataTypes.STRING(10),
-    allowNull: false,
+    allowNull: true,
   },
 }, {
   sequelize,
