@@ -90,7 +90,7 @@ exports.enviarSolicitudCotizacion = async (req, res) => {
     console.log('Datos recibidos en la solicitud:', req.body);
 
     // Verificar si se proporcionaron detalles de cotización
-    if (!detalles || detalles.length === 0) {
+    if (!detalles || !Array.isArray(detalles) || detalles.length === 0) {
       return res.status(400).json({ message: 'No se han proporcionado detalles de cotización válidos' });
     }
 
