@@ -1,5 +1,6 @@
 // Require de módulos y configuración inicial
-require('dotenv').config();
+// require('dotenv').config();
+require('dotenv').config({ path: '/etc/secrets' });//Inicar las variables del entorno en render
 const express = require('express');
 const morgan = require('morgan');
 const cors = require('cors');
