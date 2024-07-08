@@ -9,7 +9,7 @@ const sgMail = require('@sendgrid/mail');
 const multer = require('multer');
 const path = require('path');
 const fs = require('fs');
-const { descargarArchivosAdjuntos } = require('../utils/imap');
+// const { descargarArchivosAdjuntos } = require('../utils/imap');
 
 
 // Rutas importadas
@@ -26,7 +26,7 @@ const OrdenCompraDetallesRouter = require('../routes/OrdenCompraDetallesRoutes')
 const OrdenCompraCabeceraRouter = require('../routes/OrdenCompraCabeceraRoutes');
 const EstadoRouter = require('../routes/EstadoRoutes');
 const CotizacionRouter = require('../routes/CotizacionRoutes');
-const imapRouter = require('../utils/imap');
+// const imapRouter = require('../utils/imap');
 
 // Directorio para subida de archivos
 const uploadDir = path.join(__dirname, 'uploads');
@@ -81,7 +81,7 @@ app.use('/api/v1', OrdenPedidoCabeceraRouter);
 app.use('/api/v1', OrdenCompraDetallesRouter);
 app.use('/api/v1', EstadoRouter);
 app.use('/api/v1', CotizacionRouter);
-app.use('/api/v1',imapRouter );
+// app.use('/api/v1',imapRouter );
 
 // Configuración de Multer para la carga de archivos PDF
 const storage = multer.diskStorage({
