@@ -113,7 +113,7 @@ app.use((err, req, res, next) => {
     }
 });
 
-module.exports = { descargarArchivosAdjuntos };
+// module.exports = { descargarArchivosAdjuntos };
 
 
 module.exports = app;
