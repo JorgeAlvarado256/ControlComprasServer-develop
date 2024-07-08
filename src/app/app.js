@@ -1,6 +1,6 @@
 // Require de módulos y configuración inicial
 // require('dotenv').config();
-require('dotenv').config({ path: '/etc/secrets/.env' });
+require('dotenv').config({ path: 'D:\Respaldo Proyecto AppCompras WEB\ControlComprasServer-develop\.env' });
 const express = require('express');
 const morgan = require('morgan');
 const cors = require('cors');
