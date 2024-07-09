@@ -1,0 +1,5620 @@
+{
+  "api": {
+    "v1": {
+      "categoria_productos": [
+        {
+          "cod_estado": "A",
+          "id_categoria_productos": 26,
+          "nombre_categoria": "Insumos Cocina",
+          "rut_empresa": "77341784-8"
+        },
+        {
+          "cod_estado": "A",
+          "id_categoria_productos": 27,
+          "nombre_categoria": "Electrodomésticos",
+          "rut_empresa": "77341784-8"
+        },
+        {
+          "cod_estado": "A",
+          "id_categoria_productos": 28,
+          "nombre_categoria": "Insumos Salas de Pole",
+          "rut_empresa": "77341784-8"
+        },
+        {
+          "cod_estado": "A",
+          "id_categoria_productos": 29,
+          "nombre_categoria": "Menaje Sala de Masaje y Academias",
+          "rut_empresa": "77341784-8"
+        },
+        {
+          "cod_estado": "A",
+          "id_categoria_productos": 30,
+          "nombre_categoria": "Insumos Sala Masaje",
+          "rut_empresa": "77341784-8"
+        },
+        {
+          "cod_estado": "A",
+          "id_categoria_productos": 31,
+          "nombre_categoria": "Muebles",
+          "rut_empresa": "77341784-8"
+        },
+        {
+          "cod_estado": "A",
+          "id_categoria_productos": 32,
+          "nombre_categoria": "Insumos y Equipos Electrónicos",
+          "rut_empresa": "77341784-8"
+        },
+        {
+          "cod_estado": "A",
+          "id_categoria_productos": 33,
+          "nombre_categoria": "Útiles de Oficina",
+          "rut_empresa": "77341784-8"
+        },
+        {
+          "cod_estado": "A",
+          "id_categoria_productos": 34,
+          "nombre_categoria": "Vestuario",
+          "rut_empresa": "77341784-8"
+        }
+      ],
+      "cotizaciones": [
+        {
+          "estado_seguimiento": "77341784-8",
+          "fecha_emision": "EP",
+          "id_cotizacion": 1,
+          "id_usuario": "2024-06-16",
+          "rut_empresa": "171"
+        },
+        {
+          "fecha_emision": "PR",
+          "id_cotizacion": 2,
+          "id_usuario": "2024-07-07",
+          "rut_empresa": "196"
+        },
+        {
+          "fecha_emision": "PR",
+          "id_cotizacion": 3,
+          "id_usuario": "2024-07-07",
+          "rut_empresa": "197"
+        }
+      ],
+      "departamento": [
+        {
+          "KEY": "A",
+          "cod_departamento": "76301004-k",
+          "cod_estado": "8849328-1",
+          "email_departamento": "Finanzas",
+          "id_departamento": 1,
+          "nom_departamento": "1",
+          "rut_empresa": "1"
+        },
+        {
+          "KEY": "A",
+          "cod_departamento": "76301004-k",
+          "email_departamento": "TI",
+          "id_departamento": 2,
+          "nom_departamento": "2",
+          "rut_empresa": "10"
+        },
+        {
+          "KEY": "A",
+          "cod_departamento": "77341784-8",
+          "cod_estado": "18143245-4",
+          "email_departamento": "ADMINISTRATIVO",
+          "id_departamento": 3,
+          "nom_departamento": "3",
+          "rut_empresa": "19"
+        },
+        {
+          "KEY": "A",
+          "cod_departamento": "77341784-8",
+          "cod_estado": "16319374-4  ",
+          "email_departamento": "ACADEMIA POLE PLAZA",
+          "id_departamento": 4,
+          "nom_departamento": "4",
+          "rut_empresa": "25"
+        },
+        {
+          "KEY": "A",
+          "cod_departamento": "77341784-8",
+          "cod_estado": "16319374-4  ",
+          "email_departamento": "ACADEMIA POLE VARAS",
+          "id_departamento": 5,
+          "nom_departamento": "5",
+          "rut_empresa": "26"
+        },
+        {
+          "KEY": "A",
+          "cod_departamento": "77341784-8",
+          "cod_estado": "16627703-5",
+          "email_departamento": "CENTRO MASAJE",
+          "id_departamento": 6,
+          "nom_departamento": "6",
+          "rut_empresa": "27"
+        }
+      ],
+      "detalle_cotizaciones": [
+        {
+          "cantidad_comprada": 1,
+          "cantidad_solicitada": 28,
+          "id_cotizacion_fk": 7,
+          "id_detalle_cotizacion": 1,
+          "id_orden_pedido_cabecera_fk": "PR",
+          "id_producto": 171,
+          "id_proveedores": 46
+        },
+        {
+          "cantidad_comprada": 1,
+          "cantidad_solicitada": 29,
+          "id_cotizacion_fk": 8,
+          "id_detalle_cotizacion": 2,
+          "id_orden_pedido_cabecera_fk": "PR",
+          "id_producto": 171,
+          "id_proveedores": 46
+        },
+        {
+          "cantidad_comprada": 1,
+          "cantidad_solicitada": 20,
+          "id_cotizacion_fk": 96,
+          "id_detalle_cotizacion": 3,
+          "id_orden_pedido_cabecera_fk": "PR",
+          "id_producto": 196,
+          "id_proveedores": 51
+        },
+        {
+          "cantidad_comprada": 1,
+          "cantidad_solicitada": 21,
+          "id_cotizacion_fk": 97,
+          "id_detalle_cotizacion": 4,
+          "id_orden_pedido_cabecera_fk": "PR",
+          "id_producto": 196,
+          "id_proveedores": 51
+        },
+        {
+          "cantidad_comprada": 1,
+          "cantidad_solicitada": 22,
+          "id_cotizacion_fk": 98,
+          "id_detalle_cotizacion": 5,
+          "id_orden_pedido_cabecera_fk": "PR",
+          "id_producto": 196,
+          "id_proveedores": 51
+        },
+        {
+          "cantidad_comprada": 1,
+          "cantidad_solicitada": 25,
+          "id_cotizacion_fk": 99,
+          "id_detalle_cotizacion": 6,
+          "id_orden_pedido_cabecera_fk": "PR",
+          "id_producto": 197,
+          "id_proveedores": 54
+        },
+        {
+          "cantidad_comprada": 1,
+          "cantidad_solicitada": 24,
+          "id_cotizacion_fk": 100,
+          "id_detalle_cotizacion": 7,
+          "id_orden_pedido_cabecera_fk": "PR",
+          "id_producto": 197,
+          "id_proveedores": 54
+        },
+        {
+          "cantidad_comprada": 1,
+          "cantidad_solicitada": 26,
+          "id_cotizacion_fk": 101,
+          "id_detalle_cotizacion": 8,
+          "id_orden_pedido_cabecera_fk": "PR",
+          "id_producto": 197,
+          "id_proveedores": 54
+        },
+        {
+          "cantidad_comprada": 1,
+          "cantidad_solicitada": 27,
+          "id_cotizacion_fk": 102,
+          "id_detalle_cotizacion": 9,
+          "id_orden_pedido_cabecera_fk": "PR",
+          "id_producto": 197,
+          "id_proveedores": 54
+        }
+      ],
+      "empresa": [
+        {
+          "KEY": "prestaciones@example.com",
+          "ciudad": "av gabriela mistral",
+          "contacto": "Temuco",
+          "direccion": "TechSoluciones S.A",
+          "email_empresa": "999999999",
+          "id_empresa": 1,
+          "razon_social": "76301004-k",
+          "rut_empresa": "1",
+          "telefono_empresa": "andres Javier"
+        },
+        {
+          "KEY": "cecilia@example.com",
+          "ciudad": "Antonio Varas 1328 Puerto Montt",
+          "contacto": "Puerto Montt",
+          "direccion": "Anderceci Spa",
+          "email_empresa": "998626078",
+          "id_empresa": 2,
+          "razon_social": "77341784-8",
+          "rut_empresa": "3",
+          "telefono_empresa": "Cecilia Anderson Saldivia"
+        }
+      ],
+      "estado": [
+        {
+          "descripcion_estado": "Pedido pendiente de revisión por jefatura",
+          "id_estado": 10,
+          "nombre_estado": "PENR",
+          "tipo_estado": "PEDIDO"
+        },
+        {
+          "descripcion_estado": "Pedido en revisión por jefatura",
+          "id_estado": 11,
+          "nombre_estado": "REVJ",
+          "tipo_estado": "PEDIDO"
+        },
+        {
+          "descripcion_estado": "Pedido rechazado por jefatura",
+          "id_estado": 12,
+          "nombre_estado": "RECJ",
+          "tipo_estado": "PEDIDO"
+        },
+        {
+          "descripcion_estado": "Pedido aprobado con Completitud por jefatura",
+          "id_estado": 13,
+          "nombre_estado": "APRC",
+          "tipo_estado": "PEDIDO"
+        },
+        {
+          "descripcion_estado": "Pedido aprobado con Observaciones por jefatura",
+          "id_estado": 14,
+          "nombre_estado": "APRO",
+          "tipo_estado": "PEDIDO"
+        },
+        {
+          "descripcion_estado": "Pedido en orden de compra",
+          "id_estado": 15,
+          "nombre_estado": "PCOM",
+          "tipo_estado": "PEDIDO"
+        },
+        {
+          "descripcion_estado": "Pedido comprado",
+          "id_estado": 16,
+          "nombre_estado": "PEDC",
+          "tipo_estado": "PEDIDO"
+        },
+        {
+          "descripcion_estado": "Pedido comprado incompleto",
+          "id_estado": 17,
+          "nombre_estado": "PEDP",
+          "tipo_estado": "PEDIDO"
+        },
+        {
+          "descripcion_estado": "Orden de compra aprobada",
+          "id_estado": 18,
+          "nombre_estado": "APRCC",
+          "tipo_estado": "COMPRA"
+        },
+        {
+          "descripcion_estado": "Orden de compra aprobada con observaciones",
+          "id_estado": 19,
+          "nombre_estado": "APROC",
+          "tipo_estado": "COMPRA"
+        },
+        {
+          "descripcion_estado": "Compra realizada",
+          "id_estado": 20,
+          "nombre_estado": "COMCC",
+          "tipo_estado": "COMPRA"
+        },
+        {
+          "descripcion_estado": "Compra realizada incompleta",
+          "id_estado": 21,
+          "nombre_estado": "COMPC",
+          "tipo_estado": "COMPRA"
+        },
+        {
+          "descripcion_estado": "Compra pendiente de revisión por Gerencia",
+          "id_estado": 22,
+          "nombre_estado": "PENRC",
+          "tipo_estado": "COMPRA"
+        },
+        {
+          "descripcion_estado": "Orden de compra rechazada por Gerencia",
+          "id_estado": 23,
+          "nombre_estado": "RECGC",
+          "tipo_estado": "COMPRA"
+        },
+        {
+          "descripcion_estado": "Orden de compra anulada por Gerencia",
+          "id_estado": 24,
+          "nombre_estado": "ANUGC",
+          "tipo_estado": "COMPRA"
+        },
+        {
+          "descripcion_estado": "Orden en revisión por Gerencia",
+          "id_estado": 25,
+          "nombre_estado": "REVGC",
+          "tipo_estado": "COMPRA"
+        },
+        {
+          "descripcion_estado": "La solicitud de cotización está siendo creada",
+          "id_estado": 26,
+          "nombre_estado": "CR",
+          "tipo_estado": "COTIZACION"
+        },
+        {
+          "descripcion_estado": "Seleccionando los proveedores a quienes se enviará la solicitud",
+          "id_estado": 27,
+          "nombre_estado": "PR",
+          "tipo_estado": "COTIZACION"
+        },
+        {
+          "descripcion_estado": "La solicitud ha sido enviada a los proveedores seleccionados",
+          "id_estado": 28,
+          "nombre_estado": "EP",
+          "tipo_estado": "COTIZACION"
+        },
+        {
+          "descripcion_estado": "Esperando recibir las cotizaciones de los proveedores",
+          "id_estado": 29,
+          "nombre_estado": "ER",
+          "tipo_estado": "COTIZACION"
+        },
+        {
+          "descripcion_estado": "El solicitante ha recibido las cotizaciones de los proveedores",
+          "id_estado": 30,
+          "nombre_estado": "RC",
+          "tipo_estado": "COTIZACION"
+        },
+        {
+          "descripcion_estado": "Las cotizaciones recibidas están siendo revisadas",
+          "id_estado": 31,
+          "nombre_estado": "RV",
+          "tipo_estado": "COTIZACION"
+        },
+        {
+          "descripcion_estado": "Se ha seleccionado una cotización entre las recibidas",
+          "id_estado": 32,
+          "nombre_estado": "CS",
+          "tipo_estado": "COTIZACION"
+        },
+        {
+          "descripcion_estado": "La cotización seleccionada ha sido enviada al área de finanzas",
+          "id_estado": 33,
+          "nombre_estado": "EF",
+          "tipo_estado": "COTIZACION"
+        },
+        {
+          "descripcion_estado": "El proceso de solicitud de cotización ha finalizado",
+          "id_estado": 34,
+          "nombre_estado": "CD",
+          "tipo_estado": "COTIZACION"
+        }
+      ],
+      "orden_compra_cabecera": [
+        {
+          "estado_seguimiento": "2024-04-24",
+          "fecha_emision": "77704530-K",
+          "hora_fecha_autoriza": "Cecilia Anderson",
+          "id_orden_compra_cabecera": 1,
+          "neto": "ANUGC",
+          "nombre_autoriza": "12309451-4",
+          "observaciones_adquisiciones": "2024-04-24",
+          "rut_empresa": "7",
+          "rut_proveedor": "77341784-8",
+          "rut_usuario": "0"
+        },
+        {
+          "estado_seguimiento": "2024-04-24",
+          "fecha_emision": "78494010-1",
+          "hora_fecha_autoriza": "Cecilia Anderson",
+          "id_orden_compra_cabecera": 2,
+          "neto": "ANUGC",
+          "nombre_autoriza": "12309451-4",
+          "observaciones_adquisiciones": "2024-04-24",
+          "rut_empresa": "8",
+          "rut_proveedor": "77341784-8",
+          "rut_usuario": "0"
+        },
+        {
+          "estado_seguimiento": "2024-04-24",
+          "fecha_emision": "76006231-6",
+          "hora_fecha_autoriza": "Cecilia Anderson",
+          "id_orden_compra_cabecera": 3,
+          "neto": "ANUGC",
+          "nombre_autoriza": "12309451-4",
+          "observaciones_adquisiciones": "2024-04-24",
+          "rut_empresa": "9",
+          "rut_proveedor": "77341784-8",
+          "rut_usuario": "0"
+        },
+        {
+          "estado_seguimiento": "2024-04-24",
+          "fecha_emision": "92874000-5",
+          "hora_fecha_autoriza": "Cecilia Anderson",
+          "id_orden_compra_cabecera": 4,
+          "neto": "ANUGC",
+          "nombre_autoriza": "12309451-4",
+          "observaciones_adquisiciones": "2024-04-24",
+          "rut_empresa": "10",
+          "rut_proveedor": "77341784-8",
+          "rut_usuario": "0"
+        },
+        {
+          "estado_seguimiento": "2024-04-24",
+          "fecha_emision": "10214564-K",
+          "hora_fecha_autoriza": "Cecilia Anderson",
+          "id_orden_compra_cabecera": 5,
+          "neto": "ANUGC",
+          "nombre_autoriza": "12309451-4",
+          "observaciones_adquisiciones": "2024-04-24",
+          "rut_empresa": "11",
+          "rut_proveedor": "77341784-8",
+          "rut_usuario": "0"
+        },
+        {
+          "estado_seguimiento": "2024-04-24",
+          "fecha_emision": "77049423-0",
+          "hora_fecha_autoriza": "Cecilia Anderson",
+          "id_orden_compra_cabecera": 6,
+          "neto": "ANUGC",
+          "nombre_autoriza": "12309451-4",
+          "observaciones_adquisiciones": "2024-04-24",
+          "rut_empresa": "12",
+          "rut_proveedor": "77341784-8",
+          "rut_usuario": "0"
+        },
+        {
+          "estado_seguimiento": "2024-04-24",
+          "fecha_emision": "96711590-8",
+          "hora_fecha_autoriza": "Cecilia Anderson",
+          "id_orden_compra_cabecera": 7,
+          "neto": "ANUGC",
+          "nombre_autoriza": "12309451-4",
+          "observaciones_adquisiciones": "2024-04-24",
+          "rut_empresa": "13",
+          "rut_proveedor": "77341784-8",
+          "rut_usuario": "0"
+        },
+        {
+          "estado_seguimiento": "2024-04-24",
+          "fecha_emision": "92874000-5",
+          "hora_fecha_autoriza": "Cecilia Anderson",
+          "id_orden_compra_cabecera": 8,
+          "neto": "APRCC",
+          "nombre_autoriza": "12309451-4",
+          "observaciones_adquisiciones": "2024-04-24",
+          "rut_autoriza": "27940",
+          "rut_empresa": "14",
+          "rut_proveedor": "77341784-8",
+          "rut_usuario": "0"
+        },
+        {
+          "KEY": "13457249-3",
+          "estado_seguimiento": "2024-06-15",
+          "fecha_emision": "92874000-5",
+          "id_orden_compra_cabecera": 9,
+          "iva": 32400,
+          "neto": "PENRC",
+          "rut_autoriza": "40000",
+          "rut_empresa": "41",
+          "rut_proveedor": "77341784-8",
+          "rut_usuario": "0",
+          "total_compra": 7600
+        },
+        {
+          "KEY": "13457249-3",
+          "estado_seguimiento": "2024-06-16",
+          "fecha_emision": "92874000-5",
+          "id_orden_compra_cabecera": 10,
+          "iva": 4860,
+          "neto": "PENRC",
+          "rut_autoriza": "6000",
+          "rut_empresa": "42",
+          "rut_proveedor": "77341784-8",
+          "rut_usuario": "0",
+          "total_compra": 1140
+        },
+        {
+          "KEY": "13457249-3",
+          "estado_seguimiento": "2024-07-06",
+          "fecha_emision": "92874000-5",
+          "id_orden_compra_cabecera": 11,
+          "iva": 20250,
+          "neto": "PENRC",
+          "rut_autoriza": "25000",
+          "rut_empresa": "43",
+          "rut_proveedor": "77341784-8",
+          "rut_usuario": "0",
+          "total_compra": 4750
+        }
+      ],
+      "orden_compra_detalle": [
+        {
+          "KEY": "1",
+          "cantidad_comprada": 30,
+          "cantidad_recepcionada": 9980,
+          "id_orden_compra_cabecera_fk": "77341784-8",
+          "id_orden_compra_detalle": 1,
+          "id_producto": 14,
+          "precio_total_item": 4990,
+          "precio_unitario": 2,
+          "rut_empresa": "28"
+        },
+        {
+          "cantidad_comprada": 24,
+          "cantidad_recepcionada": 10000,
+          "id_orden_compra_cabecera_fk": "77341784-8",
+          "id_orden_compra_detalle": 2,
+          "id_producto": 41,
+          "precio_total_item": 10000,
+          "rut_empresa": "35"
+        },
+        {
+          "cantidad_comprada": 25,
+          "cantidad_recepcionada": 10000,
+          "id_orden_compra_cabecera_fk": "77341784-8",
+          "id_orden_compra_detalle": 3,
+          "id_producto": 41,
+          "precio_total_item": 10000,
+          "rut_empresa": "36"
+        },
+        {
+          "cantidad_comprada": 26,
+          "cantidad_recepcionada": 10000,
+          "id_orden_compra_cabecera_fk": "77341784-8",
+          "id_orden_compra_detalle": 4,
+          "id_producto": 41,
+          "precio_total_item": 10000,
+          "rut_empresa": "37"
+        },
+        {
+          "cantidad_comprada": 27,
+          "cantidad_recepcionada": 10000,
+          "id_orden_compra_cabecera_fk": "77341784-8",
+          "id_orden_compra_detalle": 5,
+          "id_producto": 41,
+          "precio_total_item": 10000,
+          "rut_empresa": "38"
+        },
+        {
+          "cantidad_comprada": 28,
+          "cantidad_recepcionada": 3000,
+          "id_orden_compra_cabecera_fk": "77341784-8",
+          "id_orden_compra_detalle": 6,
+          "id_producto": 42,
+          "precio_total_item": 3000,
+          "rut_empresa": "39"
+        },
+        {
+          "cantidad_comprada": 29,
+          "cantidad_recepcionada": 3000,
+          "id_orden_compra_cabecera_fk": "77341784-8",
+          "id_orden_compra_detalle": 7,
+          "id_producto": 42,
+          "precio_total_item": 3000,
+          "rut_empresa": "40"
+        },
+        {
+          "cantidad_comprada": 23,
+          "cantidad_recepcionada": 5000,
+          "id_orden_compra_cabecera_fk": "77341784-8",
+          "id_orden_compra_detalle": 8,
+          "id_producto": 43,
+          "precio_total_item": 1000,
+          "rut_empresa": "41"
+        },
+        {
+          "cantidad_comprada": 24,
+          "cantidad_recepcionada": 5000,
+          "id_orden_compra_cabecera_fk": "77341784-8",
+          "id_orden_compra_detalle": 9,
+          "id_producto": 43,
+          "precio_total_item": 1000,
+          "rut_empresa": "42"
+        },
+        {
+          "cantidad_comprada": 25,
+          "cantidad_recepcionada": 5000,
+          "id_orden_compra_cabecera_fk": "77341784-8",
+          "id_orden_compra_detalle": 10,
+          "id_producto": 43,
+          "precio_total_item": 1000,
+          "rut_empresa": "43"
+        },
+        {
+          "cantidad_comprada": 26,
+          "cantidad_recepcionada": 5000,
+          "id_orden_compra_cabecera_fk": "77341784-8",
+          "id_orden_compra_detalle": 11,
+          "id_producto": 43,
+          "precio_total_item": 1000,
+          "rut_empresa": "44"
+        },
+        {
+          "cantidad_comprada": 27,
+          "cantidad_recepcionada": 5000,
+          "id_orden_compra_cabecera_fk": "77341784-8",
+          "id_orden_compra_detalle": 12,
+          "id_producto": 43,
+          "precio_total_item": 1000,
+          "rut_empresa": "45"
+        }
+      ],
+      "orden_pedido_cabecera": [
+        {
+          "estado_seguimiento": "2024-03-20",
+          "fecha_emision": "22199747-6",
+          "hora_fecha_autoriza": "Cristina Maldonado",
+          "id_orden_pedido_cabecera": 1,
+          "id_orden_pedido_detalle_fk": "77341784-8",
+          "nombre_autoriza": "18143245-4",
+          "observaciones_solicitante": "2024-06-06",
+          "rut_autoriza": "APRC",
+          "rut_empresa": "35"
+        },
+        {
+          "estado_seguimiento": "2024-03-20",
+          "fecha_emision": "22199747-6",
+          "hora_fecha_autoriza": "Cristina Maldonado",
+          "id_orden_pedido_cabecera": 2,
+          "id_orden_pedido_detalle_fk": "77341784-8",
+          "nombre_autoriza": "18143245-4",
+          "observaciones_solicitante": "2024-06-06",
+          "rut_autoriza": "APRC",
+          "rut_empresa": "36"
+        },
+        {
+          "estado_seguimiento": "2024-04-01",
+          "fecha_emision": "22199747-6",
+          "id_orden_pedido_cabecera": 3,
+          "id_orden_pedido_detalle_fk": "77341784-8",
+          "rut_autoriza": "PENR",
+          "rut_empresa": "37"
+        },
+        {
+          "estado_seguimiento": "2024-04-23",
+          "fecha_emision": "22199747-6",
+          "hora_fecha_autoriza": "Cristina Maldonado",
+          "id_orden_pedido_cabecera": 4,
+          "id_orden_pedido_detalle_fk": "77341784-8",
+          "nombre_autoriza": "18143245-4",
+          "observaciones_solicitante": "2024-04-23",
+          "rut_autoriza": "APRC",
+          "rut_empresa": "41"
+        },
+        {
+          "estado_seguimiento": "2024-04-24",
+          "fecha_emision": "22199747-6",
+          "hora_fecha_autoriza": "Cristina Maldonado",
+          "id_orden_pedido_cabecera": 5,
+          "id_orden_pedido_detalle_fk": "77341784-8",
+          "nombre_autoriza": "18143245-4",
+          "observaciones_solicitante": "2024-04-24",
+          "rut_autoriza": "APRC",
+          "rut_empresa": "42"
+        },
+        {
+          "estado_seguimiento": "2024-04-25",
+          "fecha_emision": "22199747-6",
+          "hora_fecha_autoriza": "Cristina Maldonado",
+          "id_orden_pedido_cabecera": 6,
+          "id_orden_pedido_detalle_fk": "77341784-8",
+          "nombre_autoriza": "18143245-4",
+          "observaciones_solicitante": "2024-04-25",
+          "rut_autoriza": "APRC",
+          "rut_empresa": "43"
+        },
+        {
+          "estado_seguimiento": "2024-05-27",
+          "fecha_emision": "22199747-6",
+          "hora_fecha_autoriza": "Cristina Maldonado",
+          "id_orden_pedido_cabecera": 7,
+          "id_orden_pedido_detalle_fk": "77341784-8",
+          "nombre_autoriza": "18143245-4",
+          "observaciones_solicitante": "2024-05-27",
+          "rut_autoriza": "APRC",
+          "rut_empresa": "44"
+        },
+        {
+          "estado_seguimiento": "2024-06-05",
+          "fecha_emision": "18143245-4",
+          "hora_fecha_autoriza": "Cristina Maldonado",
+          "id_orden_pedido_cabecera": 8,
+          "id_orden_pedido_detalle_fk": "77341784-8",
+          "nombre_autoriza": "18143245-4",
+          "observaciones_solicitante": "2024-06-05",
+          "rut_autoriza": "APRC",
+          "rut_empresa": "45"
+        },
+        {
+          "estado_seguimiento": "2024-06-05",
+          "fecha_emision": "18143245-4",
+          "hora_fecha_autoriza": "Cristina Maldonado",
+          "id_orden_pedido_cabecera": 9,
+          "id_orden_pedido_detalle_fk": "77341784-8",
+          "nombre_autoriza": "18143245-4",
+          "observaciones_solicitante": "2024-06-05",
+          "rut_autoriza": "APRC",
+          "rut_empresa": "46"
+        },
+        {
+          "estado_seguimiento": "2024-06-05",
+          "fecha_emision": "22199747-6",
+          "id_orden_pedido_cabecera": 10,
+          "id_orden_pedido_detalle_fk": "77341784-8",
+          "rut_autoriza": "RECJ",
+          "rut_empresa": "47"
+        },
+        {
+          "estado_seguimiento": "2024-06-06",
+          "fecha_emision": "22199747-6",
+          "hora_fecha_autoriza": "Cristina Maldonado",
+          "id_orden_pedido_cabecera": 11,
+          "id_orden_pedido_detalle_fk": "77341784-8",
+          "nombre_autoriza": "18143245-4",
+          "observaciones_solicitante": "2024-06-16",
+          "rut_autoriza": "APRC",
+          "rut_empresa": "48"
+        },
+        {
+          "estado_seguimiento": "2024-06-19",
+          "fecha_emision": "19058346-5",
+          "id_orden_pedido_cabecera": 12,
+          "id_orden_pedido_detalle_fk": "77341784-8",
+          "rut_autoriza": "RECJ",
+          "rut_empresa": "50"
+        },
+        {
+          "estado_seguimiento": "2024-06-19",
+          "fecha_emision": "19058346-5",
+          "hora_fecha_autoriza": "Cristina Maldonado",
+          "id_orden_pedido_cabecera": 13,
+          "id_orden_pedido_detalle_fk": "77341784-8",
+          "nombre_autoriza": "18143245-4",
+          "observaciones_solicitante": "2024-06-28",
+          "rut_autoriza": "APRC",
+          "rut_empresa": "51"
+        },
+        {
+          "estado_seguimiento": "2024-06-22",
+          "fecha_emision": "18143245-4",
+          "id_orden_pedido_cabecera": 14,
+          "id_orden_pedido_detalle_fk": "77341784-8",
+          "rut_autoriza": "RECJ",
+          "rut_empresa": "53"
+        },
+        {
+          "estado_seguimiento": "2024-06-25",
+          "fecha_emision": "22199747-6",
+          "hora_fecha_autoriza": "Cristina Maldonado",
+          "id_orden_pedido_cabecera": 15,
+          "id_orden_pedido_detalle_fk": "77341784-8",
+          "nombre_autoriza": "18143245-4",
+          "observaciones_solicitante": "2024-07-03",
+          "rut_autoriza": "APRC",
+          "rut_empresa": "54"
+        },
+        {
+          "estado_seguimiento": "2024-06-26",
+          "fecha_emision": "22199747-6",
+          "id_orden_pedido_cabecera": 16,
+          "id_orden_pedido_detalle_fk": "77341784-8",
+          "rut_autoriza": "REVJ",
+          "rut_empresa": "55"
+        },
+        {
+          "estado_seguimiento": "2024-06-26",
+          "fecha_emision": "22199747-6",
+          "id_orden_pedido_cabecera": 17,
+          "id_orden_pedido_detalle_fk": "77341784-8",
+          "rut_autoriza": "REVJ",
+          "rut_empresa": "56"
+        },
+        {
+          "estado_seguimiento": "2024-06-26",
+          "fecha_emision": "22199747-6",
+          "id_orden_pedido_cabecera": 18,
+          "id_orden_pedido_detalle_fk": "77341784-8",
+          "rut_autoriza": "RECJ",
+          "rut_empresa": "57"
+        },
+        {
+          "estado_seguimiento": "2024-06-27",
+          "fecha_emision": "22199747-6",
+          "id_orden_pedido_cabecera": 19,
+          "id_orden_pedido_detalle_fk": "77341784-8",
+          "rut_autoriza": "REVJ",
+          "rut_empresa": "58"
+        },
+        {
+          "estado_seguimiento": "2024-06-27",
+          "fecha_emision": "22199747-6",
+          "id_orden_pedido_cabecera": 20,
+          "id_orden_pedido_detalle_fk": "77341784-8",
+          "rut_autoriza": "REVJ",
+          "rut_empresa": "59"
+        },
+        {
+          "estado_seguimiento": "2024-06-27",
+          "fecha_emision": "22199747-6",
+          "id_orden_pedido_cabecera": 21,
+          "id_orden_pedido_detalle_fk": "77341784-8",
+          "rut_autoriza": "REVJ",
+          "rut_empresa": "60"
+        },
+        {
+          "estado_seguimiento": "2024-06-27",
+          "fecha_emision": "22199747-6",
+          "id_orden_pedido_cabecera": 22,
+          "id_orden_pedido_detalle_fk": "77341784-8",
+          "rut_autoriza": "REVJ",
+          "rut_empresa": "61"
+        },
+        {
+          "estado_seguimiento": "2024-06-28",
+          "fecha_emision": "22199747-6",
+          "id_orden_pedido_cabecera": 23,
+          "id_orden_pedido_detalle_fk": "77341784-8",
+          "rut_autoriza": "REVJ",
+          "rut_empresa": "62"
+        },
+        {
+          "estado_seguimiento": "2024-07-02",
+          "fecha_emision": "22199747-6",
+          "id_orden_pedido_cabecera": 24,
+          "id_orden_pedido_detalle_fk": "77341784-8",
+          "rut_autoriza": "REVJ",
+          "rut_empresa": "63"
+        },
+        {
+          "estado_seguimiento": "2024-07-02",
+          "fecha_emision": "22199747-6",
+          "id_orden_pedido_cabecera": 25,
+          "id_orden_pedido_detalle_fk": "77341784-8",
+          "rut_autoriza": "PENR",
+          "rut_empresa": "64"
+        },
+        {
+          "estado_seguimiento": "2024-07-02",
+          "fecha_emision": "22199747-6",
+          "id_orden_pedido_cabecera": 26,
+          "id_orden_pedido_detalle_fk": "77341784-8",
+          "rut_autoriza": "PENR",
+          "rut_empresa": "65"
+        },
+        {
+          "estado_seguimiento": "2024-07-02",
+          "fecha_emision": "18143245-4",
+          "id_orden_pedido_cabecera": 27,
+          "id_orden_pedido_detalle_fk": "77341784-8",
+          "rut_autoriza": "PENR",
+          "rut_empresa": "66"
+        },
+        {
+          "estado_seguimiento": "2024-07-03",
+          "fecha_emision": "22199747-6",
+          "id_orden_pedido_cabecera": 28,
+          "id_orden_pedido_detalle_fk": "77341784-8",
+          "rut_autoriza": "PENR",
+          "rut_empresa": "67"
+        },
+        {
+          "estado_seguimiento": "2024-07-03",
+          "fecha_emision": "22199747-6",
+          "hora_fecha_autoriza": "Cristina Maldonado",
+          "id_orden_pedido_cabecera": 29,
+          "id_orden_pedido_detalle_fk": "77341784-8",
+          "nombre_autoriza": "18143245-4",
+          "observaciones_solicitante": "2024-07-03",
+          "rut_autoriza": "APRC",
+          "rut_empresa": "68"
+        },
+        {
+          "estado_seguimiento": "2024-07-03",
+          "fecha_emision": "22199747-6",
+          "id_orden_pedido_cabecera": 30,
+          "id_orden_pedido_detalle_fk": "77341784-8",
+          "rut_autoriza": "PENR",
+          "rut_empresa": "69"
+        },
+        {
+          "estado_seguimiento": "2024-07-03",
+          "fecha_emision": "22199747-6",
+          "id_orden_pedido_cabecera": 31,
+          "id_orden_pedido_detalle_fk": "77341784-8",
+          "rut_autoriza": "PENR",
+          "rut_empresa": "70"
+        },
+        {
+          "estado_seguimiento": "2024-07-06",
+          "fecha_emision": "22199747-6",
+          "id_orden_pedido_cabecera": 32,
+          "id_orden_pedido_detalle_fk": "77341784-8",
+          "rut_autoriza": "PENR",
+          "rut_empresa": "71"
+        },
+        {
+          "estado_seguimiento": "2024-07-06",
+          "fecha_emision": "18143245-4",
+          "id_orden_pedido_cabecera": 33,
+          "id_orden_pedido_detalle_fk": "77341784-8",
+          "rut_autoriza": "PENR",
+          "rut_empresa": "72"
+        }
+      ],
+      "orden_pedido_detalle": [
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "APRC",
+          "id_orden_pedido_cabecera_fk": 35,
+          "id_orden_pedido_detalle": 81,
+          "id_producto": 25,
+          "orden_compra_detalle_fk": 1
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "APRC",
+          "id_orden_pedido_cabecera_fk": 36,
+          "id_orden_pedido_detalle": 82,
+          "id_producto": 30,
+          "orden_compra_detalle_fk": 2
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "APRC",
+          "id_orden_pedido_cabecera_fk": 36,
+          "id_orden_pedido_detalle": 83,
+          "id_producto": 31,
+          "orden_compra_detalle_fk": 3
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "APRC",
+          "id_orden_pedido_cabecera_fk": 36,
+          "id_orden_pedido_detalle": 84,
+          "id_producto": 32,
+          "orden_compra_detalle_fk": 4
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "APRC",
+          "id_orden_pedido_cabecera_fk": 36,
+          "id_orden_pedido_detalle": 85,
+          "id_producto": 33,
+          "orden_compra_detalle_fk": 5
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "PENR",
+          "id_orden_pedido_cabecera_fk": 38,
+          "id_orden_pedido_detalle": 86,
+          "id_producto": 28
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "PENR",
+          "id_orden_pedido_cabecera_fk": 38,
+          "id_orden_pedido_detalle": 87,
+          "id_producto": 29
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "PENR",
+          "id_orden_pedido_cabecera_fk": 38,
+          "id_orden_pedido_detalle": 88,
+          "id_producto": 24
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "PENR",
+          "id_orden_pedido_cabecera_fk": 38,
+          "id_orden_pedido_detalle": 89,
+          "id_producto": 25
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "PENR",
+          "id_orden_pedido_cabecera_fk": 38,
+          "id_orden_pedido_detalle": 90,
+          "id_producto": 26
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "PENR",
+          "id_orden_pedido_cabecera_fk": 38,
+          "id_orden_pedido_detalle": 91,
+          "id_producto": 27
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "PENR",
+          "id_orden_pedido_cabecera_fk": 39,
+          "id_orden_pedido_detalle": 92,
+          "id_producto": 24
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "PENR",
+          "id_orden_pedido_cabecera_fk": 39,
+          "id_orden_pedido_detalle": 93,
+          "id_producto": 25
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "PENR",
+          "id_orden_pedido_cabecera_fk": 39,
+          "id_orden_pedido_detalle": 94,
+          "id_producto": 26
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "PENR",
+          "id_orden_pedido_cabecera_fk": 39,
+          "id_orden_pedido_detalle": 95,
+          "id_producto": 27
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "PENR",
+          "id_orden_pedido_cabecera_fk": 40,
+          "id_orden_pedido_detalle": 96,
+          "id_producto": 20
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "PENR",
+          "id_orden_pedido_cabecera_fk": 40,
+          "id_orden_pedido_detalle": 97,
+          "id_producto": 21
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "PENR",
+          "id_orden_pedido_cabecera_fk": 40,
+          "id_orden_pedido_detalle": 98,
+          "id_producto": 22
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "PENR",
+          "id_orden_pedido_cabecera_fk": 40,
+          "id_orden_pedido_detalle": 99,
+          "id_producto": 23
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "PENR",
+          "id_orden_pedido_cabecera_fk": 40,
+          "id_orden_pedido_detalle": 100,
+          "id_producto": 28
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "PENR",
+          "id_orden_pedido_cabecera_fk": 40,
+          "id_orden_pedido_detalle": 101,
+          "id_producto": 29
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "APRC",
+          "id_orden_pedido_cabecera_fk": 41,
+          "id_orden_pedido_detalle": 102,
+          "id_producto": 19,
+          "orden_compra_detalle_fk": 6
+        },
+        {
+          "cantidad_solicitada": 2,
+          "estado_seguimiento_producto": "REVGC",
+          "id_orden_pedido_cabecera_fk": 42,
+          "id_orden_pedido_detalle": 103,
+          "id_producto": 24,
+          "orden_compra_detalle_fk": 10
+        },
+        {
+          "cantidad_solicitada": 2,
+          "estado_seguimiento_producto": "REVGC",
+          "id_orden_pedido_cabecera_fk": 42,
+          "id_orden_pedido_detalle": 104,
+          "id_producto": 25,
+          "orden_compra_detalle_fk": 11
+        },
+        {
+          "cantidad_solicitada": 2,
+          "estado_seguimiento_producto": "REVGC",
+          "id_orden_pedido_cabecera_fk": 42,
+          "id_orden_pedido_detalle": 105,
+          "id_producto": 26,
+          "orden_compra_detalle_fk": 12
+        },
+        {
+          "cantidad_solicitada": 2,
+          "estado_seguimiento_producto": "REVGC",
+          "id_orden_pedido_cabecera_fk": 42,
+          "id_orden_pedido_detalle": 106,
+          "id_producto": 27,
+          "orden_compra_detalle_fk": 13
+        },
+        {
+          "cantidad_solicitada": 2,
+          "estado_seguimiento_producto": "APRC",
+          "id_orden_pedido_cabecera_fk": 42,
+          "id_orden_pedido_detalle": 107,
+          "id_producto": 19,
+          "orden_compra_detalle_fk": 19
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "APRC",
+          "id_orden_pedido_cabecera_fk": 42,
+          "id_orden_pedido_detalle": 108,
+          "id_producto": 20,
+          "orden_compra_detalle_fk": 22
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "APRC",
+          "id_orden_pedido_cabecera_fk": 42,
+          "id_orden_pedido_detalle": 109,
+          "id_producto": 21,
+          "orden_compra_detalle_fk": 23
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "APRC",
+          "id_orden_pedido_cabecera_fk": 42,
+          "id_orden_pedido_detalle": 110,
+          "id_producto": 22,
+          "orden_compra_detalle_fk": 24
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "APRC",
+          "id_orden_pedido_cabecera_fk": 42,
+          "id_orden_pedido_detalle": 111,
+          "id_producto": 23,
+          "orden_compra_detalle_fk": 25
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "APRC",
+          "id_orden_pedido_cabecera_fk": 42,
+          "id_orden_pedido_detalle": 112,
+          "id_producto": 29,
+          "orden_compra_detalle_fk": 26
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "APRC",
+          "id_orden_pedido_cabecera_fk": 42,
+          "id_orden_pedido_detalle": 113,
+          "id_producto": 28,
+          "orden_compra_detalle_fk": 27
+        },
+        {
+          "cantidad_recepcionada": 1,
+          "cantidad_solicitada": 2,
+          "estado_seguimiento_producto": "COMCC",
+          "id_orden_pedido_cabecera_fk": 42,
+          "id_orden_pedido_detalle": 114,
+          "id_producto": 30,
+          "orden_compra_detalle_fk": 28
+        },
+        {
+          "cantidad_recepcionada": 1,
+          "cantidad_solicitada": 2,
+          "estado_seguimiento_producto": "COMCC",
+          "id_orden_pedido_cabecera_fk": 42,
+          "id_orden_pedido_detalle": 115,
+          "id_producto": 31,
+          "orden_compra_detalle_fk": 29
+        },
+        {
+          "cantidad_recepcionada": 1,
+          "cantidad_solicitada": 2,
+          "estado_seguimiento_producto": "COMCC",
+          "id_orden_pedido_cabecera_fk": 42,
+          "id_orden_pedido_detalle": 116,
+          "id_producto": 32,
+          "orden_compra_detalle_fk": 30
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "REVGC",
+          "id_orden_pedido_cabecera_fk": 42,
+          "id_orden_pedido_detalle": 117,
+          "id_producto": 33,
+          "orden_compra_detalle_fk": 14
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "APRC",
+          "id_orden_pedido_cabecera_fk": 42,
+          "id_orden_pedido_detalle": 118,
+          "id_producto": 34,
+          "orden_compra_detalle_fk": 15
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "APRC",
+          "id_orden_pedido_cabecera_fk": 42,
+          "id_orden_pedido_detalle": 119,
+          "id_producto": 35,
+          "orden_compra_detalle_fk": 16
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "APRC",
+          "id_orden_pedido_cabecera_fk": 42,
+          "id_orden_pedido_detalle": 120,
+          "id_producto": 36,
+          "orden_compra_detalle_fk": 17
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "APRC",
+          "id_orden_pedido_cabecera_fk": 42,
+          "id_orden_pedido_detalle": 121,
+          "id_producto": 37,
+          "orden_compra_detalle_fk": 18
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "APRC",
+          "id_orden_pedido_cabecera_fk": 42,
+          "id_orden_pedido_detalle": 122,
+          "id_producto": 38,
+          "orden_compra_detalle_fk": 21
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "APRC",
+          "id_orden_pedido_cabecera_fk": 42,
+          "id_orden_pedido_detalle": 123,
+          "id_producto": 39,
+          "orden_compra_detalle_fk": 20
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "REVGC",
+          "id_orden_pedido_cabecera_fk": 42,
+          "id_orden_pedido_detalle": 124,
+          "id_producto": 40,
+          "orden_compra_detalle_fk": 7
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "REVGC",
+          "id_orden_pedido_cabecera_fk": 42,
+          "id_orden_pedido_detalle": 125,
+          "id_producto": 41,
+          "orden_compra_detalle_fk": 8
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "REVGC",
+          "id_orden_pedido_cabecera_fk": 42,
+          "id_orden_pedido_detalle": 126,
+          "id_producto": 42,
+          "orden_compra_detalle_fk": 9
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "APRC",
+          "id_orden_pedido_cabecera_fk": 43,
+          "id_orden_pedido_detalle": 127,
+          "id_producto": 24,
+          "orden_compra_detalle_fk": 31
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "APRC",
+          "id_orden_pedido_cabecera_fk": 43,
+          "id_orden_pedido_detalle": 128,
+          "id_producto": 25,
+          "orden_compra_detalle_fk": 32
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "APRC",
+          "id_orden_pedido_cabecera_fk": 43,
+          "id_orden_pedido_detalle": 129,
+          "id_producto": 26,
+          "orden_compra_detalle_fk": 33
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "APRC",
+          "id_orden_pedido_cabecera_fk": 44,
+          "id_orden_pedido_detalle": 130,
+          "id_producto": 27,
+          "orden_compra_detalle_fk": 34
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "APRC",
+          "id_orden_pedido_cabecera_fk": 45,
+          "id_orden_pedido_detalle": 135,
+          "id_producto": 24,
+          "orden_compra_detalle_fk": 35
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "APRC",
+          "id_orden_pedido_cabecera_fk": 45,
+          "id_orden_pedido_detalle": 136,
+          "id_producto": 25,
+          "orden_compra_detalle_fk": 36
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "APRC",
+          "id_orden_pedido_cabecera_fk": 45,
+          "id_orden_pedido_detalle": 137,
+          "id_producto": 26,
+          "orden_compra_detalle_fk": 37
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "APRC",
+          "id_orden_pedido_cabecera_fk": 45,
+          "id_orden_pedido_detalle": 138,
+          "id_producto": 27,
+          "orden_compra_detalle_fk": 38
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "APRC",
+          "id_orden_pedido_cabecera_fk": 46,
+          "id_orden_pedido_detalle": 139,
+          "id_producto": 28,
+          "orden_compra_detalle_fk": 39
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "APRC",
+          "id_orden_pedido_cabecera_fk": 46,
+          "id_orden_pedido_detalle": 140,
+          "id_producto": 29,
+          "orden_compra_detalle_fk": 40
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "APRC",
+          "id_orden_pedido_cabecera_fk": 46,
+          "id_orden_pedido_detalle": 141,
+          "id_producto": 51
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "RECJ",
+          "id_orden_pedido_cabecera_fk": 47,
+          "id_orden_pedido_detalle": 142,
+          "id_producto": 24
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "RECJ",
+          "id_orden_pedido_cabecera_fk": 47,
+          "id_orden_pedido_detalle": 143,
+          "id_producto": 25
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "RECJ",
+          "id_orden_pedido_cabecera_fk": 47,
+          "id_orden_pedido_detalle": 144,
+          "id_producto": 26
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "RECJ",
+          "id_orden_pedido_cabecera_fk": 47,
+          "id_orden_pedido_detalle": 145,
+          "id_producto": 27
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "RECJ",
+          "id_orden_pedido_cabecera_fk": 47,
+          "id_orden_pedido_detalle": 146,
+          "id_producto": 19
+        },
+        {
+          "cantidad_solicitada": 5,
+          "estado_seguimiento_producto": "APRC",
+          "id_orden_pedido_cabecera_fk": 48,
+          "id_orden_pedido_detalle": 147,
+          "id_producto": 23,
+          "orden_compra_detalle_fk": 41
+        },
+        {
+          "cantidad_solicitada": 5,
+          "estado_seguimiento_producto": "APRC",
+          "id_orden_pedido_cabecera_fk": 48,
+          "id_orden_pedido_detalle": 148,
+          "id_producto": 24,
+          "orden_compra_detalle_fk": 42
+        },
+        {
+          "cantidad_solicitada": 5,
+          "estado_seguimiento_producto": "APRC",
+          "id_orden_pedido_cabecera_fk": 48,
+          "id_orden_pedido_detalle": 149,
+          "id_producto": 25,
+          "orden_compra_detalle_fk": 43
+        },
+        {
+          "cantidad_solicitada": 5,
+          "estado_seguimiento_producto": "APRC",
+          "id_orden_pedido_cabecera_fk": 48,
+          "id_orden_pedido_detalle": 150,
+          "id_producto": 26,
+          "orden_compra_detalle_fk": 44
+        },
+        {
+          "cantidad_solicitada": 5,
+          "estado_seguimiento_producto": "APRC",
+          "id_orden_pedido_cabecera_fk": 48,
+          "id_orden_pedido_detalle": 151,
+          "id_producto": 27,
+          "orden_compra_detalle_fk": 45
+        },
+        {
+          "cantidad_solicitada": 2,
+          "estado_seguimiento_producto": "PENR",
+          "id_orden_pedido_cabecera_fk": 49,
+          "id_orden_pedido_detalle": 153,
+          "id_producto": 23
+        },
+        {
+          "cantidad_solicitada": 2,
+          "estado_seguimiento_producto": "PENR",
+          "id_orden_pedido_cabecera_fk": 49,
+          "id_orden_pedido_detalle": 154,
+          "id_producto": 24
+        },
+        {
+          "cantidad_solicitada": 2,
+          "estado_seguimiento_producto": "PENR",
+          "id_orden_pedido_cabecera_fk": 49,
+          "id_orden_pedido_detalle": 155,
+          "id_producto": 25
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "PENR",
+          "id_orden_pedido_cabecera_fk": 49,
+          "id_orden_pedido_detalle": 156,
+          "id_producto": 26
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "PENR",
+          "id_orden_pedido_cabecera_fk": 49,
+          "id_orden_pedido_detalle": 157,
+          "id_producto": 27
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "RECJ",
+          "id_orden_pedido_cabecera_fk": 50,
+          "id_orden_pedido_detalle": 159,
+          "id_producto": 20
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "APRC",
+          "id_orden_pedido_cabecera_fk": 51,
+          "id_orden_pedido_detalle": 160,
+          "id_producto": 20
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "APRC",
+          "id_orden_pedido_cabecera_fk": 51,
+          "id_orden_pedido_detalle": 161,
+          "id_producto": 21
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "APRC",
+          "id_orden_pedido_cabecera_fk": 51,
+          "id_orden_pedido_detalle": 162,
+          "id_producto": 22
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "RECJ",
+          "id_orden_pedido_cabecera_fk": 53,
+          "id_orden_pedido_detalle": 168,
+          "id_producto": 23
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "RECJ",
+          "id_orden_pedido_cabecera_fk": 53,
+          "id_orden_pedido_detalle": 169,
+          "id_producto": 24
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "RECJ",
+          "id_orden_pedido_cabecera_fk": 53,
+          "id_orden_pedido_detalle": 170,
+          "id_producto": 25
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "RECJ",
+          "id_orden_pedido_cabecera_fk": 53,
+          "id_orden_pedido_detalle": 171,
+          "id_producto": 26
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "RECJ",
+          "id_orden_pedido_cabecera_fk": 53,
+          "id_orden_pedido_detalle": 172,
+          "id_producto": 27
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "APRC",
+          "id_orden_pedido_cabecera_fk": 54,
+          "id_orden_pedido_detalle": 173,
+          "id_producto": 23
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "APRC",
+          "id_orden_pedido_cabecera_fk": 54,
+          "id_orden_pedido_detalle": 174,
+          "id_producto": 24
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "APRC",
+          "id_orden_pedido_cabecera_fk": 54,
+          "id_orden_pedido_detalle": 175,
+          "id_producto": 25
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "APRC",
+          "id_orden_pedido_cabecera_fk": 54,
+          "id_orden_pedido_detalle": 176,
+          "id_producto": 26
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "APRC",
+          "id_orden_pedido_cabecera_fk": 54,
+          "id_orden_pedido_detalle": 177,
+          "id_producto": 27
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "REVJ",
+          "id_orden_pedido_cabecera_fk": 55,
+          "id_orden_pedido_detalle": 178,
+          "id_producto": 30
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "REVJ",
+          "id_orden_pedido_cabecera_fk": 56,
+          "id_orden_pedido_detalle": 179,
+          "id_producto": 30
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "RECJ",
+          "id_orden_pedido_cabecera_fk": 57,
+          "id_orden_pedido_detalle": 180,
+          "id_producto": 28
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "RECJ",
+          "id_orden_pedido_cabecera_fk": 57,
+          "id_orden_pedido_detalle": 181,
+          "id_producto": 29
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "REVJ",
+          "id_orden_pedido_cabecera_fk": 58,
+          "id_orden_pedido_detalle": 182,
+          "id_producto": 23
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "REVJ",
+          "id_orden_pedido_cabecera_fk": 58,
+          "id_orden_pedido_detalle": 183,
+          "id_producto": 24
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "REVJ",
+          "id_orden_pedido_cabecera_fk": 58,
+          "id_orden_pedido_detalle": 184,
+          "id_producto": 25
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "REVJ",
+          "id_orden_pedido_cabecera_fk": 58,
+          "id_orden_pedido_detalle": 185,
+          "id_producto": 26
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "REVJ",
+          "id_orden_pedido_cabecera_fk": 58,
+          "id_orden_pedido_detalle": 186,
+          "id_producto": 27
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "REVJ",
+          "id_orden_pedido_cabecera_fk": 59,
+          "id_orden_pedido_detalle": 187,
+          "id_producto": 28
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "REVJ",
+          "id_orden_pedido_cabecera_fk": 59,
+          "id_orden_pedido_detalle": 188,
+          "id_producto": 29
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "REVJ",
+          "id_orden_pedido_cabecera_fk": 59,
+          "id_orden_pedido_detalle": 189,
+          "id_producto": 33
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "REVJ",
+          "id_orden_pedido_cabecera_fk": 59,
+          "id_orden_pedido_detalle": 190,
+          "id_producto": 35
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "REVJ",
+          "id_orden_pedido_cabecera_fk": 59,
+          "id_orden_pedido_detalle": 191,
+          "id_producto": 34
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "REVJ",
+          "id_orden_pedido_cabecera_fk": 59,
+          "id_orden_pedido_detalle": 192,
+          "id_producto": 36
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "REVJ",
+          "id_orden_pedido_cabecera_fk": 59,
+          "id_orden_pedido_detalle": 193,
+          "id_producto": 37
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "REVJ",
+          "id_orden_pedido_cabecera_fk": 60,
+          "id_orden_pedido_detalle": 194,
+          "id_producto": 28
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "REVJ",
+          "id_orden_pedido_cabecera_fk": 60,
+          "id_orden_pedido_detalle": 195,
+          "id_producto": 29
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "REVJ",
+          "id_orden_pedido_cabecera_fk": 61,
+          "id_orden_pedido_detalle": 196,
+          "id_producto": 23
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "REVJ",
+          "id_orden_pedido_cabecera_fk": 61,
+          "id_orden_pedido_detalle": 197,
+          "id_producto": 24
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "REVJ",
+          "id_orden_pedido_cabecera_fk": 61,
+          "id_orden_pedido_detalle": 198,
+          "id_producto": 25
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "REVJ",
+          "id_orden_pedido_cabecera_fk": 61,
+          "id_orden_pedido_detalle": 199,
+          "id_producto": 26
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "REVJ",
+          "id_orden_pedido_cabecera_fk": 61,
+          "id_orden_pedido_detalle": 200,
+          "id_producto": 27
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "REVJ",
+          "id_orden_pedido_cabecera_fk": 62,
+          "id_orden_pedido_detalle": 201,
+          "id_producto": 23
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "REVJ",
+          "id_orden_pedido_cabecera_fk": 62,
+          "id_orden_pedido_detalle": 202,
+          "id_producto": 24
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "REVJ",
+          "id_orden_pedido_cabecera_fk": 62,
+          "id_orden_pedido_detalle": 203,
+          "id_producto": 25
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "REVJ",
+          "id_orden_pedido_cabecera_fk": 62,
+          "id_orden_pedido_detalle": 204,
+          "id_producto": 26
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "REVJ",
+          "id_orden_pedido_cabecera_fk": 62,
+          "id_orden_pedido_detalle": 205,
+          "id_producto": 27
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "REVJ",
+          "id_orden_pedido_cabecera_fk": 62,
+          "id_orden_pedido_detalle": 206,
+          "id_producto": 68
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "REVJ",
+          "id_orden_pedido_cabecera_fk": 62,
+          "id_orden_pedido_detalle": 207,
+          "id_producto": 22
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "REVJ",
+          "id_orden_pedido_cabecera_fk": 63,
+          "id_orden_pedido_detalle": 208,
+          "id_producto": 23
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "REVJ",
+          "id_orden_pedido_cabecera_fk": 63,
+          "id_orden_pedido_detalle": 209,
+          "id_producto": 24
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "REVJ",
+          "id_orden_pedido_cabecera_fk": 63,
+          "id_orden_pedido_detalle": 210,
+          "id_producto": 25
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "REVJ",
+          "id_orden_pedido_cabecera_fk": 63,
+          "id_orden_pedido_detalle": 211,
+          "id_producto": 26
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "REVJ",
+          "id_orden_pedido_cabecera_fk": 63,
+          "id_orden_pedido_detalle": 212,
+          "id_producto": 68
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "REVJ",
+          "id_orden_pedido_cabecera_fk": 63,
+          "id_orden_pedido_detalle": 213,
+          "id_producto": 20
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "REVJ",
+          "id_orden_pedido_cabecera_fk": 63,
+          "id_orden_pedido_detalle": 214,
+          "id_producto": 21
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "REVJ",
+          "id_orden_pedido_cabecera_fk": 63,
+          "id_orden_pedido_detalle": 215,
+          "id_producto": 22
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "REVJ",
+          "id_orden_pedido_cabecera_fk": 63,
+          "id_orden_pedido_detalle": 216,
+          "id_producto": 28
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "REVJ",
+          "id_orden_pedido_cabecera_fk": 63,
+          "id_orden_pedido_detalle": 217,
+          "id_producto": 29
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "REVJ",
+          "id_orden_pedido_cabecera_fk": 63,
+          "id_orden_pedido_detalle": 218,
+          "id_producto": 30
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "REVJ",
+          "id_orden_pedido_cabecera_fk": 63,
+          "id_orden_pedido_detalle": 219,
+          "id_producto": 33
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "REVJ",
+          "id_orden_pedido_cabecera_fk": 63,
+          "id_orden_pedido_detalle": 220,
+          "id_producto": 40
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "REVJ",
+          "id_orden_pedido_cabecera_fk": 63,
+          "id_orden_pedido_detalle": 221,
+          "id_producto": 41
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "REVJ",
+          "id_orden_pedido_cabecera_fk": 63,
+          "id_orden_pedido_detalle": 222,
+          "id_producto": 42
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "PENR",
+          "id_orden_pedido_cabecera_fk": 64,
+          "id_orden_pedido_detalle": 223,
+          "id_producto": 23
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "PENR",
+          "id_orden_pedido_cabecera_fk": 64,
+          "id_orden_pedido_detalle": 224,
+          "id_producto": 24
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "PENR",
+          "id_orden_pedido_cabecera_fk": 64,
+          "id_orden_pedido_detalle": 225,
+          "id_producto": 25
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "PENR",
+          "id_orden_pedido_cabecera_fk": 65,
+          "id_orden_pedido_detalle": 226,
+          "id_producto": 20
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "PENR",
+          "id_orden_pedido_cabecera_fk": 65,
+          "id_orden_pedido_detalle": 227,
+          "id_producto": 21
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "PENR",
+          "id_orden_pedido_cabecera_fk": 65,
+          "id_orden_pedido_detalle": 228,
+          "id_producto": 22
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "PENR",
+          "id_orden_pedido_cabecera_fk": 66,
+          "id_orden_pedido_detalle": 229,
+          "id_producto": 23
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "PENR",
+          "id_orden_pedido_cabecera_fk": 66,
+          "id_orden_pedido_detalle": 230,
+          "id_producto": 24
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "PENR",
+          "id_orden_pedido_cabecera_fk": 66,
+          "id_orden_pedido_detalle": 231,
+          "id_producto": 25
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "PENR",
+          "id_orden_pedido_cabecera_fk": 66,
+          "id_orden_pedido_detalle": 232,
+          "id_producto": 68
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "PENR",
+          "id_orden_pedido_cabecera_fk": 67,
+          "id_orden_pedido_detalle": 233,
+          "id_producto": 23
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "PENR",
+          "id_orden_pedido_cabecera_fk": 67,
+          "id_orden_pedido_detalle": 234,
+          "id_producto": 25
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "PENR",
+          "id_orden_pedido_cabecera_fk": 67,
+          "id_orden_pedido_detalle": 235,
+          "id_producto": 27
+        },
+        {
+          "cantidad_solicitada": 3,
+          "estado_seguimiento_producto": "PENR",
+          "id_orden_pedido_cabecera_fk": 67,
+          "id_orden_pedido_detalle": 236,
+          "id_producto": 30
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "PENR",
+          "id_orden_pedido_cabecera_fk": 67,
+          "id_orden_pedido_detalle": 237,
+          "id_producto": 33
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "PENR",
+          "id_orden_pedido_cabecera_fk": 67,
+          "id_orden_pedido_detalle": 238,
+          "id_producto": 35
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "APRC",
+          "id_orden_pedido_cabecera_fk": 68,
+          "id_orden_pedido_detalle": 239,
+          "id_producto": 30
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "APRC",
+          "id_orden_pedido_cabecera_fk": 68,
+          "id_orden_pedido_detalle": 240,
+          "id_producto": 34
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "PENR",
+          "id_orden_pedido_cabecera_fk": 69,
+          "id_orden_pedido_detalle": 242,
+          "id_producto": 20
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "PENR",
+          "id_orden_pedido_cabecera_fk": 69,
+          "id_orden_pedido_detalle": 243,
+          "id_producto": 21
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "PENR",
+          "id_orden_pedido_cabecera_fk": 69,
+          "id_orden_pedido_detalle": 244,
+          "id_producto": 22
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "PENR",
+          "id_orden_pedido_cabecera_fk": 70,
+          "id_orden_pedido_detalle": 245,
+          "id_producto": 33
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "PENR",
+          "id_orden_pedido_cabecera_fk": 70,
+          "id_orden_pedido_detalle": 246,
+          "id_producto": 34
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "PENR",
+          "id_orden_pedido_cabecera_fk": 70,
+          "id_orden_pedido_detalle": 247,
+          "id_producto": 35
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "PENR",
+          "id_orden_pedido_cabecera_fk": 70,
+          "id_orden_pedido_detalle": 248,
+          "id_producto": 36
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "PENR",
+          "id_orden_pedido_cabecera_fk": 70,
+          "id_orden_pedido_detalle": 249,
+          "id_producto": 37
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "PENR",
+          "id_orden_pedido_cabecera_fk": 71,
+          "id_orden_pedido_detalle": 250,
+          "id_producto": 23
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "PENR",
+          "id_orden_pedido_cabecera_fk": 71,
+          "id_orden_pedido_detalle": 251,
+          "id_producto": 24
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "PENR",
+          "id_orden_pedido_cabecera_fk": 71,
+          "id_orden_pedido_detalle": 252,
+          "id_producto": 25
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "PENR",
+          "id_orden_pedido_cabecera_fk": 71,
+          "id_orden_pedido_detalle": 253,
+          "id_producto": 26
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "PENR",
+          "id_orden_pedido_cabecera_fk": 72,
+          "id_orden_pedido_detalle": 254,
+          "id_producto": 68
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "PENR",
+          "id_orden_pedido_cabecera_fk": 72,
+          "id_orden_pedido_detalle": 255,
+          "id_producto": 28
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "PENR",
+          "id_orden_pedido_cabecera_fk": 72,
+          "id_orden_pedido_detalle": 256,
+          "id_producto": 29
+        },
+        {
+          "cantidad_solicitada": 1,
+          "estado_seguimiento_producto": "PENR",
+          "id_orden_pedido_cabecera_fk": 72,
+          "id_orden_pedido_detalle": 257,
+          "id_producto": 30
+        }
+      ],
+      "precios_productos": [
+        {
+          "KEY": "29990",
+          "id_precio_producto": 1,
+          "id_producto": "77341784-8",
+          "id_proveedor": 20,
+          "precio": 28,
+          "rut_empresa": "219"
+        },
+        {
+          "KEY": "20000",
+          "id_precio_producto": 2,
+          "id_producto": "77341784-8",
+          "id_proveedor": 21,
+          "precio": 28,
+          "rut_empresa": "220"
+        },
+        {
+          "KEY": "7990",
+          "id_precio_producto": 3,
+          "id_producto": "77341784-8",
+          "id_proveedor": 22,
+          "precio": 28,
+          "rut_empresa": "221"
+        },
+        {
+          "KEY": "99990",
+          "id_precio_producto": 4,
+          "id_producto": "77341784-8",
+          "id_proveedor": 23,
+          "precio": 28,
+          "rut_empresa": "222"
+        },
+        {
+          "KEY": "7990",
+          "id_precio_producto": 5,
+          "id_producto": "77341784-8",
+          "id_proveedor": 24,
+          "precio": 24,
+          "rut_empresa": "223"
+        },
+        {
+          "KEY": "4990",
+          "id_precio_producto": 6,
+          "id_producto": "77341784-8",
+          "id_proveedor": 25,
+          "precio": 24,
+          "rut_empresa": "224"
+        },
+        {
+          "KEY": "5990",
+          "id_precio_producto": 7,
+          "id_producto": "77341784-8",
+          "id_proveedor": 26,
+          "precio": 24,
+          "rut_empresa": "225"
+        },
+        {
+          "KEY": "1990",
+          "id_precio_producto": 8,
+          "id_producto": "77341784-8",
+          "id_proveedor": 27,
+          "precio": 24,
+          "rut_empresa": "226"
+        },
+        {
+          "KEY": "7990",
+          "id_precio_producto": 9,
+          "id_producto": "77341784-8",
+          "id_proveedor": 28,
+          "precio": 30,
+          "rut_empresa": "227"
+        },
+        {
+          "KEY": "9990",
+          "id_precio_producto": 10,
+          "id_producto": "77341784-8",
+          "id_proveedor": 29,
+          "precio": 30,
+          "rut_empresa": "228"
+        },
+        {
+          "KEY": "4990",
+          "id_precio_producto": 11,
+          "id_producto": "77341784-8",
+          "id_proveedor": 30,
+          "precio": 31,
+          "rut_empresa": "229"
+        },
+        {
+          "KEY": "7990",
+          "id_precio_producto": 12,
+          "id_producto": "77341784-8",
+          "id_proveedor": 33,
+          "precio": 32,
+          "rut_empresa": "232"
+        },
+        {
+          "KEY": "9990",
+          "id_precio_producto": 13,
+          "id_producto": "77341784-8",
+          "id_proveedor": 34,
+          "precio": 32,
+          "rut_empresa": "233"
+        },
+        {
+          "KEY": "3990",
+          "id_precio_producto": 14,
+          "id_producto": "77341784-8",
+          "id_proveedor": 35,
+          "precio": 32,
+          "rut_empresa": "234"
+        },
+        {
+          "KEY": "2990",
+          "id_precio_producto": 15,
+          "id_producto": "77341784-8",
+          "id_proveedor": 36,
+          "precio": 32,
+          "rut_empresa": "235"
+        },
+        {
+          "KEY": "4990",
+          "id_precio_producto": 16,
+          "id_producto": "77341784-8",
+          "id_proveedor": 37,
+          "precio": 32,
+          "rut_empresa": "236"
+        },
+        {
+          "KEY": "7990",
+          "id_precio_producto": 17,
+          "id_producto": "77341784-8",
+          "id_proveedor": 40,
+          "precio": 34,
+          "rut_empresa": "239"
+        },
+        {
+          "KEY": "9990",
+          "id_precio_producto": 18,
+          "id_producto": "77341784-8",
+          "id_proveedor": 41,
+          "precio": 34,
+          "rut_empresa": "240"
+        },
+        {
+          "KEY": "3990",
+          "id_precio_producto": 19,
+          "id_producto": "77341784-8",
+          "id_proveedor": 42,
+          "precio": 34,
+          "rut_empresa": "241"
+        }
+      ],
+      "productos": [
+        {
+          "KEY": "A",
+          "cod_estado": "Espejos",
+          "id_categoria_productos_fk": 20,
+          "id_producto": "77341784-8",
+          "id_proveedores": 28
+        },
+        {
+          "KEY": "A",
+          "cod_estado": "Barras de acero",
+          "id_categoria_productos_fk": 21,
+          "id_producto": "77341784-8",
+          "id_proveedores": 28
+        },
+        {
+          "KEY": "A",
+          "cod_estado": "Colchonetas",
+          "id_categoria_productos_fk": 22,
+          "id_producto": "77341784-8",
+          "id_proveedores": 28
+        },
+        {
+          "KEY": "A",
+          "cod_estado": "Bidones de agua manantial",
+          "id_categoria_productos_fk": 23,
+          "id_producto": "77341784-8",
+          "id_proveedores": 26
+        },
+        {
+          "KEY": "A",
+          "cod_estado": "Toallas",
+          "id_categoria_productos_fk": 24,
+          "id_producto": "77341784-8",
+          "id_proveedores": 26,
+          "nombre_producto": "17"
+        },
+        {
+          "KEY": "A",
+          "cod_estado": "Frazadas",
+          "id_categoria_productos_fk": 25,
+          "id_producto": "77341784-8",
+          "id_proveedores": 26,
+          "nombre_producto": "17"
+        },
+        {
+          "KEY": "A",
+          "cod_estado": "Tazones",
+          "id_categoria_productos_fk": 26,
+          "id_producto": "77341784-8",
+          "id_proveedores": 26,
+          "nombre_producto": "17"
+        },
+        {
+          "KEY": "A",
+          "cod_estado": "Cucharas",
+          "id_categoria_productos_fk": 27,
+          "id_producto": "77341784-8",
+          "id_proveedores": 26,
+          "nombre_producto": "17"
+        },
+        {
+          "KEY": "A",
+          "cod_estado": "Crema y aceites de masaje",
+          "id_categoria_productos_fk": 28,
+          "id_producto": "77341784-8",
+          "id_proveedores": 30
+        },
+        {
+          "KEY": "A",
+          "cod_estado": "Inciensos",
+          "id_categoria_productos_fk": 29,
+          "id_producto": "77341784-8",
+          "id_proveedores": 30
+        },
+        {
+          "KEY": "A",
+          "cod_estado": "Escritorio",
+          "id_categoria_productos_fk": 30,
+          "id_producto": "77341784-8",
+          "id_proveedores": 31
+        },
+        {
+          "KEY": "A",
+          "cod_estado": "Notebook",
+          "id_categoria_productos_fk": 33,
+          "id_producto": "77341784-8",
+          "id_proveedores": 32
+        },
+        {
+          "KEY": "A",
+          "cod_estado": "Computador",
+          "id_categoria_productos_fk": 34,
+          "id_producto": "77341784-8",
+          "id_proveedores": 32
+        },
+        {
+          "KEY": "A",
+          "cod_estado": "Impresora",
+          "id_categoria_productos_fk": 35,
+          "id_producto": "77341784-8",
+          "id_proveedores": 32
+        },
+        {
+          "KEY": "A",
+          "cod_estado": "Parlantes",
+          "id_categoria_productos_fk": 36,
+          "id_producto": "77341784-8",
+          "id_proveedores": 32
+        },
+        {
+          "KEY": "A",
+          "cod_estado": "Ampolletas",
+          "id_categoria_productos_fk": 37,
+          "id_producto": "77341784-8",
+          "id_proveedores": 32
+        },
+        {
+          "KEY": "A",
+          "cod_estado": "Delantal institucional",
+          "id_categoria_productos_fk": 40,
+          "id_producto": "77341784-8",
+          "id_proveedores": 34
+        },
+        {
+          "KEY": "A",
+          "cod_estado": "Short",
+          "id_categoria_productos_fk": 41,
+          "id_producto": "77341784-8",
+          "id_proveedores": 34
+        },
+        {
+          "KEY": "A",
+          "cod_estado": "Poleras",
+          "id_categoria_productos_fk": 42,
+          "id_producto": "77341784-8",
+          "id_proveedores": 34
+        },
+        {
+          "KEY": "A",
+          "cod_estado": "Calefactores",
+          "id_categoria_productos_fk": 68,
+          "id_producto": "77341784-8",
+          "id_proveedores": 27
+        },
+        {
+          "KEY": "A",
+          "cod_estado": "Lápices",
+          "id_categoria_productos_fk": 87,
+          "id_producto": "77341784-8",
+          "id_proveedores": 33
+        },
+        {
+          "KEY": "A",
+          "cod_estado": "Cuadernos",
+          "id_categoria_productos_fk": 88,
+          "id_producto": "77341784-8",
+          "id_proveedores": 33
+        }
+      ],
+      "proveedores": [
+        {
+          "KEY": "A",
+          "celular_contacto": "Juan",
+          "ciudad": "Antonio Varas 1112",
+          "cod_estado": "Menaje, Muebles",
+          "direccion": "Ferreterias Weitzler",
+          "email_proveedor": "987654321",
+          "giro": "jalvandersona@gmail.com",
+          "id_proveedores": 1,
+          "nombre_contacto_proveedor": "Puerto Montt",
+          "razon_social": "92874000-5",
+          "rut_empresa": "13",
+          "rut_proveedor": "77341784-8"
+        },
+        {
+          "ciudad": "Antonio Varas 1070",
+          "cod_estado": "Supermercado",
+          "direccion": "Sociedad comercial Ohiggins LTDA",
+          "id_proveedores": 2,
+          "nombre_contacto_proveedor": "Puerto Montt",
+          "razon_social": "78494010-1",
+          "rut_empresa": "14",
+          "rut_proveedor": "77341784-8"
+        },
+        {
+          "celular_contacto": "Vendedor virtual",
+          "ciudad": "Vitacura 9033",
+          "cod_estado": "Ventas de artículos e insumos médicos.",
+          "direccion": "Camillas Chile",
+          "email_proveedor": "979336836",
+          "id_proveedores": 3,
+          "nombre_contacto_proveedor": "Santiago",
+          "razon_social": "76604207-4",
+          "rut_empresa": "15",
+          "rut_proveedor": "77341784-8"
+        },
+        {
+          "ciudad": "José Miguel Carrera 244",
+          "cod_estado": "Fabricación de ventanas y espejos",
+          "direccion": "Vidrios y Ventanas Chamia",
+          "email_proveedor": "652260658",
+          "id_proveedores": 4,
+          "nombre_contacto_proveedor": "Puerto Montt",
+          "razon_social": "13968324-2",
+          "rut_empresa": "16",
+          "rut_proveedor": "77341784-8"
+        },
+        {
+          "celular_contacto": "Karen Pérez",
+          "ciudad": "Avenida Presidente Ibañez 121",
+          "cod_estado": "Ventas al por menor de Insumos de limpieza y papelería",
+          "direccion": "Distribuidora e importadora Ditor SPA",
+          "email_proveedor": "971882024",
+          "id_proveedores": 5,
+          "nombre_contacto_proveedor": "Puerto Montt",
+          "razon_social": "77049423-0",
+          "rut_empresa": "17",
+          "rut_proveedor": "77341784-8"
+        },
+        {
+          "celular_contacto": "Mirtha Osadey",
+          "ciudad": "Victoria 1185",
+          "cod_estado": "Venta de insumos de perfumería, tocador y cosméticos.",
+          "direccion": "Insumestetic",
+          "email_proveedor": "959180297",
+          "giro": "correo@insumestetic.com",
+          "id_proveedores": 6,
+          "nombre_contacto_proveedor": "Santiago",
+          "razon_social": "76026493-8",
+          "rut_empresa": "18",
+          "rut_proveedor": "77341784-8"
+        },
+        {
+          "celular_contacto": "Raquel Cáceres",
+          "ciudad": "Camino al Tepual kilómetro 1,5",
+          "cod_estado": "Fabricación de prendas de vestir",
+          "direccion": "Leyad Ltda",
+          "email_proveedor": "989025305",
+          "id_proveedores": 7,
+          "nombre_contacto_proveedor": "Puerto Montt",
+          "razon_social": "76006231-6",
+          "rut_empresa": "19",
+          "rut_proveedor": "77341784-8"
+        },
+        {
+          "ciudad": "Los Robles 540",
+          "cod_estado": "Captación, tratamiento y distribución de agua",
+          "direccion": "Manantial S.A",
+          "id_proveedores": 8,
+          "nombre_contacto_proveedor": "Quilicura",
+          "razon_social": "96711590-8",
+          "rut_empresa": "20",
+          "rut_proveedor": "77341784-8"
+        },
+        {
+          "celular_contacto": "José Moreno",
+          "ciudad": "Antonio Varas 678",
+          "cod_estado": "Venta de telas",
+          "direccion": "Chantilly telas Puerto Montt",
+          "email_proveedor": "652854132",
+          "id_proveedores": 9,
+          "nombre_contacto_proveedor": "Puerto Montt",
+          "razon_social": "77704530-K",
+          "rut_empresa": "21",
+          "rut_proveedor": "77341784-8"
+        },
+        {
+          "ciudad": "Volcán Hudson 780",
+          "cod_estado": "Confección de ropa institucional",
+          "direccion": "Rsn Tomasito",
+          "email_proveedor": "94903234",
+          "id_proveedores": 10,
+          "nombre_contacto_proveedor": "Puerto Montt",
+          "razon_social": "10214564-K",
+          "rut_empresa": "22",
+          "rut_proveedor": "77341784-8"
+        }
+      ],
+      "roles": [
+        {
+          "KEY": "Administrador",
+          "cod_rol": "76301004-k",
+          "id_roles": 1,
+          "nombre_rol": "1",
+          "rut_empresa": "1"
+        },
+        {
+          "KEY": "Gerencia",
+          "cod_rol": "76301004-k",
+          "id_roles": 2,
+          "nombre_rol": "6",
+          "rut_empresa": "2"
+        },
+        {
+          "KEY": "Adquisidores",
+          "cod_rol": "76301004-k",
+          "id_roles": 3,
+          "nombre_rol": "5",
+          "rut_empresa": "3"
+        },
+        {
+          "KEY": "Operadores",
+          "cod_rol": "76301004-k",
+          "id_roles": 4,
+          "nombre_rol": "2",
+          "rut_empresa": "4"
+        },
+        {
+          "KEY": "Solicitante",
+          "cod_rol": "76301004-k",
+          "id_roles": 5,
+          "nombre_rol": "3",
+          "rut_empresa": "5"
+        },
+        {
+          "KEY": "Jefatura",
+          "cod_rol": "76301004-k",
+          "id_roles": 6,
+          "nombre_rol": "4",
+          "rut_empresa": "6"
+        }
+      ],
+      "usuarios": [
+        {
+          "KEY": "A",
+          "cod_estado": "JavierAndres",
+          "cod_rol": 123,
+          "contraseña": "12345678-9",
+          "email_usuario": "1",
+          "id_departamento": 1,
+          "id_usuario": 1,
+          "nombre_usuario": "admin@example.com",
+          "rut_empresa": "1",
+          "rut_usuario": "76301004-k"
+        },
+        {
+          "KEY": "A",
+          "cod_estado": "Andres",
+          "cod_rol": 123,
+          "contraseña": "34567778-9",
+          "email_usuario": "1",
+          "id_departamento": 3,
+          "id_usuario": 2,
+          "nombre_usuario": "solicitante@example.com",
+          "rut_empresa": "2",
+          "rut_usuario": "76301004-k"
+        },
+        {
+          "KEY": "A",
+          "cod_estado": "Leslie Anderson",
+          "cod_rol": 123,
+          "contraseña": "8849328-1",
+          "email_usuario": "1",
+          "id_departamento": 4,
+          "id_usuario": 3,
+          "nombre_usuario": "leslie@example.com",
+          "rut_empresa": "4",
+          "rut_usuario": "76301004-k"
+        },
+        {
+          "KEY": "A",
+          "cod_estado": "pablo",
+          "cod_rol": 123,
+          "contraseña": "88888888-8",
+          "email_usuario": "1",
+          "id_departamento": 2,
+          "id_usuario": 4,
+          "nombre_usuario": "pablo@example.com",
+          "rut_empresa": "6",
+          "rut_usuario": "77341784-8"
+        },
+        {
+          "KEY": "A",
+          "cod_estado": "Roberto Rojas",
+          "cod_rol": 123,
+          "contraseña": "123123-1",
+          "email_usuario": "1",
+          "id_departamento": 5,
+          "id_usuario": 5,
+          "nombre_usuario": "roberto@example.com",
+          "rut_empresa": "18",
+          "rut_usuario": "76301004-k"
+        },
+        {
+          "KEY": "A",
+          "cod_estado": "Remigio Ramirez",
+          "cod_rol": 123,
+          "contraseña": "432432-4",
+          "email_usuario": "10",
+          "id_departamento": 6,
+          "id_usuario": 6,
+          "nombre_usuario": "remigio.ra@example.com",
+          "rut_empresa": "51",
+          "rut_usuario": "76301004-k"
+        },
+        {
+          "KEY": "A",
+          "cod_estado": "Cecilia Anderson",
+          "cod_rol": 123,
+          "contraseña": "12309451-4",
+          "email_usuario": "19",
+          "id_departamento": 6,
+          "id_usuario": 7,
+          "nombre_usuario": "cecilia@example.com",
+          "rut_empresa": "70",
+          "rut_usuario": "77341784-8"
+        },
+        {
+          "KEY": "A",
+          "cod_estado": "Cristina Maldonado",
+          "cod_rol": 123,
+          "contraseña": "18143245-4",
+          "email_usuario": "19",
+          "id_departamento": 4,
+          "id_usuario": 8,
+          "nombre_usuario": "cristina@example.com",
+          "rut_empresa": "71",
+          "rut_usuario": "77341784-8"
+        },
+        {
+          "KEY": "A",
+          "cod_estado": "Eugenia Jerez",
+          "cod_rol": 123,
+          "contraseña": "13457249-3",
+          "email_usuario": "19",
+          "id_departamento": 5,
+          "id_usuario": 9,
+          "nombre_usuario": "j.alvanderson.96@gmail.com",
+          "rut_empresa": "72",
+          "rut_usuario": "77341784-8"
+        },
+        {
+          "KEY": "A",
+          "cod_estado": "Carolina Segovia",
+          "cod_rol": 123,
+          "contraseña": "16627703-5",
+          "email_usuario": "27",
+          "id_departamento": 4,
+          "id_usuario": 10,
+          "nombre_usuario": "carolina@example.com",
+          "rut_empresa": "73",
+          "rut_usuario": "77341784-8"
+        },
+        {
+          "KEY": "A",
+          "cod_estado": "Tatiana Valenzuela",
+          "cod_rol": 123,
+          "contraseña": "16319374-4",
+          "email_usuario": "26",
+          "id_departamento": 4,
+          "id_usuario": 11,
+          "nombre_usuario": "tatiana@example.com",
+          "rut_empresa": "74",
+          "rut_usuario": "77341784-8"
+        },
+        {
+          "KEY": "A",
+          "cod_estado": "Constanza Hernández",
+          "cod_rol": 123,
+          "contraseña": "22199747-6",
+          "email_usuario": "19",
+          "id_departamento": 3,
+          "id_usuario": 12,
+          "nombre_usuario": "constanza@example.com",
+          "rut_empresa": "75",
+          "rut_usuario": "77341784-8"
+        },
+        {
+          "KEY": "A",
+          "cod_estado": "Jessenia Rivas",
+          "cod_rol": 123,
+          "contraseña": "19058346-5",
+          "email_usuario": "19",
+          "id_departamento": 3,
+          "id_usuario": 13,
+          "nombre_usuario": "jessenia@example.com",
+          "rut_empresa": "76",
+          "rut_usuario": "77341784-8"
+        },
+        {
+          "KEY": "A",
+          "cod_estado": "Varinia Araya",
+          "cod_rol": 123,
+          "contraseña": "19359909-5",
+          "email_usuario": "26",
+          "id_departamento": 3,
+          "id_usuario": 14,
+          "nombre_usuario": "varinia@example.com",
+          "rut_empresa": "77",
+          "rut_usuario": "77341784-8"
+        },
+        {
+          "KEY": "A",
+          "cod_estado": "Catalina De Los Reyes",
+          "cod_rol": 123,
+          "contraseña": "18188213-1",
+          "email_usuario": "27",
+          "id_departamento": 3,
+          "id_usuario": 15,
+          "nombre_usuario": "catalina@example.com",
+          "rut_empresa": "78",
+          "rut_usuario": "77341784-8"
+        }
+      ]
+    }
+  },
+  "categoria_productos": [
+    {
+      "cod_estado": "A",
+      "id_categoria_productos": 26,
+      "nombre_categoria": "Insumos Cocina",
+      "rut_empresa": "77341784-8"
+    },
+    {
+      "cod_estado": "A",
+      "id_categoria_productos": 27,
+      "nombre_categoria": "Electrodomésticos",
+      "rut_empresa": "77341784-8"
+    },
+    {
+      "cod_estado": "A",
+      "id_categoria_productos": 28,
+      "nombre_categoria": "Insumos Salas de Pole",
+      "rut_empresa": "77341784-8"
+    },
+    {
+      "cod_estado": "A",
+      "id_categoria_productos": 29,
+      "nombre_categoria": "Menaje Sala de Masaje y Academias",
+      "rut_empresa": "77341784-8"
+    },
+    {
+      "cod_estado": "A",
+      "id_categoria_productos": 30,
+      "nombre_categoria": "Insumos Sala Masaje",
+      "rut_empresa": "77341784-8"
+    },
+    {
+      "cod_estado": "A",
+      "id_categoria_productos": 31,
+      "nombre_categoria": "Muebles",
+      "rut_empresa": "77341784-8"
+    },
+    {
+      "cod_estado": "A",
+      "id_categoria_productos": 32,
+      "nombre_categoria": "Insumos y Equipos Electrónicos",
+      "rut_empresa": "77341784-8"
+    },
+    {
+      "cod_estado": "A",
+      "id_categoria_productos": 33,
+      "nombre_categoria": "Útiles de Oficina",
+      "rut_empresa": "77341784-8"
+    },
+    {
+      "cod_estado": "A",
+      "id_categoria_productos": 34,
+      "nombre_categoria": "Vestuario",
+      "rut_empresa": "77341784-8"
+    }
+  ],
+  "cotizaciones": [
+    {
+      "estado_seguimiento": "77341784-8",
+      "fecha_emision": "EP",
+      "id_cotizacion": 1,
+      "id_usuario": "2024-06-16",
+      "rut_empresa": "171"
+    },
+    {
+      "fecha_emision": "PR",
+      "id_cotizacion": 2,
+      "id_usuario": "2024-07-07",
+      "rut_empresa": "196"
+    },
+    {
+      "fecha_emision": "PR",
+      "id_cotizacion": 3,
+      "id_usuario": "2024-07-07",
+      "rut_empresa": "197"
+    }
+  ],
+  "departamento": [
+    {
+      "KEY": "A",
+      "cod_departamento": "76301004-k",
+      "cod_estado": "8849328-1",
+      "email_departamento": "Finanzas",
+      "id_departamento": 1,
+      "nom_departamento": "1",
+      "rut_empresa": "1"
+    },
+    {
+      "KEY": "A",
+      "cod_departamento": "76301004-k",
+      "email_departamento": "TI",
+      "id_departamento": 2,
+      "nom_departamento": "2",
+      "rut_empresa": "10"
+    },
+    {
+      "KEY": "A",
+      "cod_departamento": "77341784-8",
+      "cod_estado": "18143245-4",
+      "email_departamento": "ADMINISTRATIVO",
+      "id_departamento": 3,
+      "nom_departamento": "3",
+      "rut_empresa": "19"
+    },
+    {
+      "KEY": "A",
+      "cod_departamento": "77341784-8",
+      "cod_estado": "16319374-4  ",
+      "email_departamento": "ACADEMIA POLE PLAZA",
+      "id_departamento": 4,
+      "nom_departamento": "4",
+      "rut_empresa": "25"
+    },
+    {
+      "KEY": "A",
+      "cod_departamento": "77341784-8",
+      "cod_estado": "16319374-4  ",
+      "email_departamento": "ACADEMIA POLE VARAS",
+      "id_departamento": 5,
+      "nom_departamento": "5",
+      "rut_empresa": "26"
+    },
+    {
+      "KEY": "A",
+      "cod_departamento": "77341784-8",
+      "cod_estado": "16627703-5",
+      "email_departamento": "CENTRO MASAJE",
+      "id_departamento": 6,
+      "nom_departamento": "6",
+      "rut_empresa": "27"
+    }
+  ],
+  "detalle_cotizaciones": [
+    {
+      "cantidad_comprada": 1,
+      "cantidad_solicitada": 28,
+      "id_cotizacion_fk": 7,
+      "id_detalle_cotizacion": 1,
+      "id_orden_pedido_cabecera_fk": "PR",
+      "id_producto": 171,
+      "id_proveedores": 46
+    },
+    {
+      "cantidad_comprada": 1,
+      "cantidad_solicitada": 29,
+      "id_cotizacion_fk": 8,
+      "id_detalle_cotizacion": 2,
+      "id_orden_pedido_cabecera_fk": "PR",
+      "id_producto": 171,
+      "id_proveedores": 46
+    },
+    {
+      "cantidad_comprada": 1,
+      "cantidad_solicitada": 20,
+      "id_cotizacion_fk": 96,
+      "id_detalle_cotizacion": 3,
+      "id_orden_pedido_cabecera_fk": "PR",
+      "id_producto": 196,
+      "id_proveedores": 51
+    },
+    {
+      "cantidad_comprada": 1,
+      "cantidad_solicitada": 21,
+      "id_cotizacion_fk": 97,
+      "id_detalle_cotizacion": 4,
+      "id_orden_pedido_cabecera_fk": "PR",
+      "id_producto": 196,
+      "id_proveedores": 51
+    },
+    {
+      "cantidad_comprada": 1,
+      "cantidad_solicitada": 22,
+      "id_cotizacion_fk": 98,
+      "id_detalle_cotizacion": 5,
+      "id_orden_pedido_cabecera_fk": "PR",
+      "id_producto": 196,
+      "id_proveedores": 51
+    },
+    {
+      "cantidad_comprada": 1,
+      "cantidad_solicitada": 25,
+      "id_cotizacion_fk": 99,
+      "id_detalle_cotizacion": 6,
+      "id_orden_pedido_cabecera_fk": "PR",
+      "id_producto": 197,
+      "id_proveedores": 54
+    },
+    {
+      "cantidad_comprada": 1,
+      "cantidad_solicitada": 24,
+      "id_cotizacion_fk": 100,
+      "id_detalle_cotizacion": 7,
+      "id_orden_pedido_cabecera_fk": "PR",
+      "id_producto": 197,
+      "id_proveedores": 54
+    },
+    {
+      "cantidad_comprada": 1,
+      "cantidad_solicitada": 26,
+      "id_cotizacion_fk": 101,
+      "id_detalle_cotizacion": 8,
+      "id_orden_pedido_cabecera_fk": "PR",
+      "id_producto": 197,
+      "id_proveedores": 54
+    },
+    {
+      "cantidad_comprada": 1,
+      "cantidad_solicitada": 27,
+      "id_cotizacion_fk": 102,
+      "id_detalle_cotizacion": 9,
+      "id_orden_pedido_cabecera_fk": "PR",
+      "id_producto": 197,
+      "id_proveedores": 54
+    }
+  ],
+  "empresa": [
+    {
+      "KEY": "prestaciones@example.com",
+      "ciudad": "av gabriela mistral",
+      "contacto": "Temuco",
+      "direccion": "TechSoluciones S.A",
+      "email_empresa": "999999999",
+      "id_empresa": 1,
+      "razon_social": "76301004-k",
+      "rut_empresa": "1",
+      "telefono_empresa": "andres Javier"
+    },
+    {
+      "KEY": "cecilia@example.com",
+      "ciudad": "Antonio Varas 1328 Puerto Montt",
+      "contacto": "Puerto Montt",
+      "direccion": "Anderceci Spa",
+      "email_empresa": "998626078",
+      "id_empresa": 2,
+      "razon_social": "77341784-8",
+      "rut_empresa": "3",
+      "telefono_empresa": "Cecilia Anderson Saldivia"
+    }
+  ],
+  "estado": [
+    {
+      "descripcion_estado": "Pedido pendiente de revisión por jefatura",
+      "id_estado": 10,
+      "nombre_estado": "PENR",
+      "tipo_estado": "PEDIDO"
+    },
+    {
+      "descripcion_estado": "Pedido en revisión por jefatura",
+      "id_estado": 11,
+      "nombre_estado": "REVJ",
+      "tipo_estado": "PEDIDO"
+    },
+    {
+      "descripcion_estado": "Pedido rechazado por jefatura",
+      "id_estado": 12,
+      "nombre_estado": "RECJ",
+      "tipo_estado": "PEDIDO"
+    },
+    {
+      "descripcion_estado": "Pedido aprobado con Completitud por jefatura",
+      "id_estado": 13,
+      "nombre_estado": "APRC",
+      "tipo_estado": "PEDIDO"
+    },
+    {
+      "descripcion_estado": "Pedido aprobado con Observaciones por jefatura",
+      "id_estado": 14,
+      "nombre_estado": "APRO",
+      "tipo_estado": "PEDIDO"
+    },
+    {
+      "descripcion_estado": "Pedido en orden de compra",
+      "id_estado": 15,
+      "nombre_estado": "PCOM",
+      "tipo_estado": "PEDIDO"
+    },
+    {
+      "descripcion_estado": "Pedido comprado",
+      "id_estado": 16,
+      "nombre_estado": "PEDC",
+      "tipo_estado": "PEDIDO"
+    },
+    {
+      "descripcion_estado": "Pedido comprado incompleto",
+      "id_estado": 17,
+      "nombre_estado": "PEDP",
+      "tipo_estado": "PEDIDO"
+    },
+    {
+      "descripcion_estado": "Orden de compra aprobada",
+      "id_estado": 18,
+      "nombre_estado": "APRCC",
+      "tipo_estado": "COMPRA"
+    },
+    {
+      "descripcion_estado": "Orden de compra aprobada con observaciones",
+      "id_estado": 19,
+      "nombre_estado": "APROC",
+      "tipo_estado": "COMPRA"
+    },
+    {
+      "descripcion_estado": "Compra realizada",
+      "id_estado": 20,
+      "nombre_estado": "COMCC",
+      "tipo_estado": "COMPRA"
+    },
+    {
+      "descripcion_estado": "Compra realizada incompleta",
+      "id_estado": 21,
+      "nombre_estado": "COMPC",
+      "tipo_estado": "COMPRA"
+    },
+    {
+      "descripcion_estado": "Compra pendiente de revisión por Gerencia",
+      "id_estado": 22,
+      "nombre_estado": "PENRC",
+      "tipo_estado": "COMPRA"
+    },
+    {
+      "descripcion_estado": "Orden de compra rechazada por Gerencia",
+      "id_estado": 23,
+      "nombre_estado": "RECGC",
+      "tipo_estado": "COMPRA"
+    },
+    {
+      "descripcion_estado": "Orden de compra anulada por Gerencia",
+      "id_estado": 24,
+      "nombre_estado": "ANUGC",
+      "tipo_estado": "COMPRA"
+    },
+    {
+      "descripcion_estado": "Orden en revisión por Gerencia",
+      "id_estado": 25,
+      "nombre_estado": "REVGC",
+      "tipo_estado": "COMPRA"
+    },
+    {
+      "descripcion_estado": "La solicitud de cotización está siendo creada",
+      "id_estado": 26,
+      "nombre_estado": "CR",
+      "tipo_estado": "COTIZACION"
+    },
+    {
+      "descripcion_estado": "Seleccionando los proveedores a quienes se enviará la solicitud",
+      "id_estado": 27,
+      "nombre_estado": "PR",
+      "tipo_estado": "COTIZACION"
+    },
+    {
+      "descripcion_estado": "La solicitud ha sido enviada a los proveedores seleccionados",
+      "id_estado": 28,
+      "nombre_estado": "EP",
+      "tipo_estado": "COTIZACION"
+    },
+    {
+      "descripcion_estado": "Esperando recibir las cotizaciones de los proveedores",
+      "id_estado": 29,
+      "nombre_estado": "ER",
+      "tipo_estado": "COTIZACION"
+    },
+    {
+      "descripcion_estado": "El solicitante ha recibido las cotizaciones de los proveedores",
+      "id_estado": 30,
+      "nombre_estado": "RC",
+      "tipo_estado": "COTIZACION"
+    },
+    {
+      "descripcion_estado": "Las cotizaciones recibidas están siendo revisadas",
+      "id_estado": 31,
+      "nombre_estado": "RV",
+      "tipo_estado": "COTIZACION"
+    },
+    {
+      "descripcion_estado": "Se ha seleccionado una cotización entre las recibidas",
+      "id_estado": 32,
+      "nombre_estado": "CS",
+      "tipo_estado": "COTIZACION"
+    },
+    {
+      "descripcion_estado": "La cotización seleccionada ha sido enviada al área de finanzas",
+      "id_estado": 33,
+      "nombre_estado": "EF",
+      "tipo_estado": "COTIZACION"
+    },
+    {
+      "descripcion_estado": "El proceso de solicitud de cotización ha finalizado",
+      "id_estado": 34,
+      "nombre_estado": "CD",
+      "tipo_estado": "COTIZACION"
+    }
+  ],
+  "orden_compra_cabecera": [
+    {
+      "estado_seguimiento": "2024-04-24",
+      "fecha_emision": "77704530-K",
+      "hora_fecha_autoriza": "Cecilia Anderson",
+      "id_orden_compra_cabecera": 1,
+      "neto": "ANUGC",
+      "nombre_autoriza": "12309451-4",
+      "observaciones_adquisiciones": "2024-04-24",
+      "rut_empresa": "7",
+      "rut_proveedor": "77341784-8",
+      "rut_usuario": "0"
+    },
+    {
+      "estado_seguimiento": "2024-04-24",
+      "fecha_emision": "78494010-1",
+      "hora_fecha_autoriza": "Cecilia Anderson",
+      "id_orden_compra_cabecera": 2,
+      "neto": "ANUGC",
+      "nombre_autoriza": "12309451-4",
+      "observaciones_adquisiciones": "2024-04-24",
+      "rut_empresa": "8",
+      "rut_proveedor": "77341784-8",
+      "rut_usuario": "0"
+    },
+    {
+      "estado_seguimiento": "2024-04-24",
+      "fecha_emision": "76006231-6",
+      "hora_fecha_autoriza": "Cecilia Anderson",
+      "id_orden_compra_cabecera": 3,
+      "neto": "ANUGC",
+      "nombre_autoriza": "12309451-4",
+      "observaciones_adquisiciones": "2024-04-24",
+      "rut_empresa": "9",
+      "rut_proveedor": "77341784-8",
+      "rut_usuario": "0"
+    },
+    {
+      "estado_seguimiento": "2024-04-24",
+      "fecha_emision": "92874000-5",
+      "hora_fecha_autoriza": "Cecilia Anderson",
+      "id_orden_compra_cabecera": 4,
+      "neto": "ANUGC",
+      "nombre_autoriza": "12309451-4",
+      "observaciones_adquisiciones": "2024-04-24",
+      "rut_empresa": "10",
+      "rut_proveedor": "77341784-8",
+      "rut_usuario": "0"
+    },
+    {
+      "estado_seguimiento": "2024-04-24",
+      "fecha_emision": "10214564-K",
+      "hora_fecha_autoriza": "Cecilia Anderson",
+      "id_orden_compra_cabecera": 5,
+      "neto": "ANUGC",
+      "nombre_autoriza": "12309451-4",
+      "observaciones_adquisiciones": "2024-04-24",
+      "rut_empresa": "11",
+      "rut_proveedor": "77341784-8",
+      "rut_usuario": "0"
+    },
+    {
+      "estado_seguimiento": "2024-04-24",
+      "fecha_emision": "77049423-0",
+      "hora_fecha_autoriza": "Cecilia Anderson",
+      "id_orden_compra_cabecera": 6,
+      "neto": "ANUGC",
+      "nombre_autoriza": "12309451-4",
+      "observaciones_adquisiciones": "2024-04-24",
+      "rut_empresa": "12",
+      "rut_proveedor": "77341784-8",
+      "rut_usuario": "0"
+    },
+    {
+      "estado_seguimiento": "2024-04-24",
+      "fecha_emision": "96711590-8",
+      "hora_fecha_autoriza": "Cecilia Anderson",
+      "id_orden_compra_cabecera": 7,
+      "neto": "ANUGC",
+      "nombre_autoriza": "12309451-4",
+      "observaciones_adquisiciones": "2024-04-24",
+      "rut_empresa": "13",
+      "rut_proveedor": "77341784-8",
+      "rut_usuario": "0"
+    },
+    {
+      "estado_seguimiento": "2024-04-24",
+      "fecha_emision": "92874000-5",
+      "hora_fecha_autoriza": "Cecilia Anderson",
+      "id_orden_compra_cabecera": 8,
+      "neto": "APRCC",
+      "nombre_autoriza": "12309451-4",
+      "observaciones_adquisiciones": "2024-04-24",
+      "rut_autoriza": "27940",
+      "rut_empresa": "14",
+      "rut_proveedor": "77341784-8",
+      "rut_usuario": "0"
+    },
+    {
+      "KEY": "13457249-3",
+      "estado_seguimiento": "2024-06-15",
+      "fecha_emision": "92874000-5",
+      "id_orden_compra_cabecera": 9,
+      "iva": 32400,
+      "neto": "PENRC",
+      "rut_autoriza": "40000",
+      "rut_empresa": "41",
+      "rut_proveedor": "77341784-8",
+      "rut_usuario": "0",
+      "total_compra": 7600
+    },
+    {
+      "KEY": "13457249-3",
+      "estado_seguimiento": "2024-06-16",
+      "fecha_emision": "92874000-5",
+      "id_orden_compra_cabecera": 10,
+      "iva": 4860,
+      "neto": "PENRC",
+      "rut_autoriza": "6000",
+      "rut_empresa": "42",
+      "rut_proveedor": "77341784-8",
+      "rut_usuario": "0",
+      "total_compra": 1140
+    },
+    {
+      "KEY": "13457249-3",
+      "estado_seguimiento": "2024-07-06",
+      "fecha_emision": "92874000-5",
+      "id_orden_compra_cabecera": 11,
+      "iva": 20250,
+      "neto": "PENRC",
+      "rut_autoriza": "25000",
+      "rut_empresa": "43",
+      "rut_proveedor": "77341784-8",
+      "rut_usuario": "0",
+      "total_compra": 4750
+    }
+  ],
+  "orden_compra_detalle": [
+    {
+      "KEY": "1",
+      "cantidad_comprada": 30,
+      "cantidad_recepcionada": 9980,
+      "id_orden_compra_cabecera_fk": "77341784-8",
+      "id_orden_compra_detalle": 1,
+      "id_producto": 14,
+      "precio_total_item": 4990,
+      "precio_unitario": 2,
+      "rut_empresa": "28"
+    },
+    {
+      "cantidad_comprada": 24,
+      "cantidad_recepcionada": 10000,
+      "id_orden_compra_cabecera_fk": "77341784-8",
+      "id_orden_compra_detalle": 2,
+      "id_producto": 41,
+      "precio_total_item": 10000,
+      "rut_empresa": "35"
+    },
+    {
+      "cantidad_comprada": 25,
+      "cantidad_recepcionada": 10000,
+      "id_orden_compra_cabecera_fk": "77341784-8",
+      "id_orden_compra_detalle": 3,
+      "id_producto": 41,
+      "precio_total_item": 10000,
+      "rut_empresa": "36"
+    },
+    {
+      "cantidad_comprada": 26,
+      "cantidad_recepcionada": 10000,
+      "id_orden_compra_cabecera_fk": "77341784-8",
+      "id_orden_compra_detalle": 4,
+      "id_producto": 41,
+      "precio_total_item": 10000,
+      "rut_empresa": "37"
+    },
+    {
+      "cantidad_comprada": 27,
+      "cantidad_recepcionada": 10000,
+      "id_orden_compra_cabecera_fk": "77341784-8",
+      "id_orden_compra_detalle": 5,
+      "id_producto": 41,
+      "precio_total_item": 10000,
+      "rut_empresa": "38"
+    },
+    {
+      "cantidad_comprada": 28,
+      "cantidad_recepcionada": 3000,
+      "id_orden_compra_cabecera_fk": "77341784-8",
+      "id_orden_compra_detalle": 6,
+      "id_producto": 42,
+      "precio_total_item": 3000,
+      "rut_empresa": "39"
+    },
+    {
+      "cantidad_comprada": 29,
+      "cantidad_recepcionada": 3000,
+      "id_orden_compra_cabecera_fk": "77341784-8",
+      "id_orden_compra_detalle": 7,
+      "id_producto": 42,
+      "precio_total_item": 3000,
+      "rut_empresa": "40"
+    },
+    {
+      "cantidad_comprada": 23,
+      "cantidad_recepcionada": 5000,
+      "id_orden_compra_cabecera_fk": "77341784-8",
+      "id_orden_compra_detalle": 8,
+      "id_producto": 43,
+      "precio_total_item": 1000,
+      "rut_empresa": "41"
+    },
+    {
+      "cantidad_comprada": 24,
+      "cantidad_recepcionada": 5000,
+      "id_orden_compra_cabecera_fk": "77341784-8",
+      "id_orden_compra_detalle": 9,
+      "id_producto": 43,
+      "precio_total_item": 1000,
+      "rut_empresa": "42"
+    },
+    {
+      "cantidad_comprada": 25,
+      "cantidad_recepcionada": 5000,
+      "id_orden_compra_cabecera_fk": "77341784-8",
+      "id_orden_compra_detalle": 10,
+      "id_producto": 43,
+      "precio_total_item": 1000,
+      "rut_empresa": "43"
+    },
+    {
+      "cantidad_comprada": 26,
+      "cantidad_recepcionada": 5000,
+      "id_orden_compra_cabecera_fk": "77341784-8",
+      "id_orden_compra_detalle": 11,
+      "id_producto": 43,
+      "precio_total_item": 1000,
+      "rut_empresa": "44"
+    },
+    {
+      "cantidad_comprada": 27,
+      "cantidad_recepcionada": 5000,
+      "id_orden_compra_cabecera_fk": "77341784-8",
+      "id_orden_compra_detalle": 12,
+      "id_producto": 43,
+      "precio_total_item": 1000,
+      "rut_empresa": "45"
+    }
+  ],
+  "orden_pedido_cabecera": [
+    {
+      "estado_seguimiento": "2024-03-20",
+      "fecha_emision": "22199747-6",
+      "hora_fecha_autoriza": "Cristina Maldonado",
+      "id_orden_pedido_cabecera": 1,
+      "id_orden_pedido_detalle_fk": "77341784-8",
+      "nombre_autoriza": "18143245-4",
+      "observaciones_solicitante": "2024-06-06",
+      "rut_autoriza": "APRC",
+      "rut_empresa": "35"
+    },
+    {
+      "estado_seguimiento": "2024-03-20",
+      "fecha_emision": "22199747-6",
+      "hora_fecha_autoriza": "Cristina Maldonado",
+      "id_orden_pedido_cabecera": 2,
+      "id_orden_pedido_detalle_fk": "77341784-8",
+      "nombre_autoriza": "18143245-4",
+      "observaciones_solicitante": "2024-06-06",
+      "rut_autoriza": "APRC",
+      "rut_empresa": "36"
+    },
+    {
+      "estado_seguimiento": "2024-04-01",
+      "fecha_emision": "22199747-6",
+      "id_orden_pedido_cabecera": 3,
+      "id_orden_pedido_detalle_fk": "77341784-8",
+      "rut_autoriza": "PENR",
+      "rut_empresa": "37"
+    },
+    {
+      "estado_seguimiento": "2024-04-23",
+      "fecha_emision": "22199747-6",
+      "hora_fecha_autoriza": "Cristina Maldonado",
+      "id_orden_pedido_cabecera": 4,
+      "id_orden_pedido_detalle_fk": "77341784-8",
+      "nombre_autoriza": "18143245-4",
+      "observaciones_solicitante": "2024-04-23",
+      "rut_autoriza": "APRC",
+      "rut_empresa": "41"
+    },
+    {
+      "estado_seguimiento": "2024-04-24",
+      "fecha_emision": "22199747-6",
+      "hora_fecha_autoriza": "Cristina Maldonado",
+      "id_orden_pedido_cabecera": 5,
+      "id_orden_pedido_detalle_fk": "77341784-8",
+      "nombre_autoriza": "18143245-4",
+      "observaciones_solicitante": "2024-04-24",
+      "rut_autoriza": "APRC",
+      "rut_empresa": "42"
+    },
+    {
+      "estado_seguimiento": "2024-04-25",
+      "fecha_emision": "22199747-6",
+      "hora_fecha_autoriza": "Cristina Maldonado",
+      "id_orden_pedido_cabecera": 6,
+      "id_orden_pedido_detalle_fk": "77341784-8",
+      "nombre_autoriza": "18143245-4",
+      "observaciones_solicitante": "2024-04-25",
+      "rut_autoriza": "APRC",
+      "rut_empresa": "43"
+    },
+    {
+      "estado_seguimiento": "2024-05-27",
+      "fecha_emision": "22199747-6",
+      "hora_fecha_autoriza": "Cristina Maldonado",
+      "id_orden_pedido_cabecera": 7,
+      "id_orden_pedido_detalle_fk": "77341784-8",
+      "nombre_autoriza": "18143245-4",
+      "observaciones_solicitante": "2024-05-27",
+      "rut_autoriza": "APRC",
+      "rut_empresa": "44"
+    },
+    {
+      "estado_seguimiento": "2024-06-05",
+      "fecha_emision": "18143245-4",
+      "hora_fecha_autoriza": "Cristina Maldonado",
+      "id_orden_pedido_cabecera": 8,
+      "id_orden_pedido_detalle_fk": "77341784-8",
+      "nombre_autoriza": "18143245-4",
+      "observaciones_solicitante": "2024-06-05",
+      "rut_autoriza": "APRC",
+      "rut_empresa": "45"
+    },
+    {
+      "estado_seguimiento": "2024-06-05",
+      "fecha_emision": "18143245-4",
+      "hora_fecha_autoriza": "Cristina Maldonado",
+      "id_orden_pedido_cabecera": 9,
+      "id_orden_pedido_detalle_fk": "77341784-8",
+      "nombre_autoriza": "18143245-4",
+      "observaciones_solicitante": "2024-06-05",
+      "rut_autoriza": "APRC",
+      "rut_empresa": "46"
+    },
+    {
+      "estado_seguimiento": "2024-06-05",
+      "fecha_emision": "22199747-6",
+      "id_orden_pedido_cabecera": 10,
+      "id_orden_pedido_detalle_fk": "77341784-8",
+      "rut_autoriza": "RECJ",
+      "rut_empresa": "47"
+    },
+    {
+      "estado_seguimiento": "2024-06-06",
+      "fecha_emision": "22199747-6",
+      "hora_fecha_autoriza": "Cristina Maldonado",
+      "id_orden_pedido_cabecera": 11,
+      "id_orden_pedido_detalle_fk": "77341784-8",
+      "nombre_autoriza": "18143245-4",
+      "observaciones_solicitante": "2024-06-16",
+      "rut_autoriza": "APRC",
+      "rut_empresa": "48"
+    },
+    {
+      "estado_seguimiento": "2024-06-19",
+      "fecha_emision": "19058346-5",
+      "id_orden_pedido_cabecera": 12,
+      "id_orden_pedido_detalle_fk": "77341784-8",
+      "rut_autoriza": "RECJ",
+      "rut_empresa": "50"
+    },
+    {
+      "estado_seguimiento": "2024-06-19",
+      "fecha_emision": "19058346-5",
+      "hora_fecha_autoriza": "Cristina Maldonado",
+      "id_orden_pedido_cabecera": 13,
+      "id_orden_pedido_detalle_fk": "77341784-8",
+      "nombre_autoriza": "18143245-4",
+      "observaciones_solicitante": "2024-06-28",
+      "rut_autoriza": "APRC",
+      "rut_empresa": "51"
+    },
+    {
+      "estado_seguimiento": "2024-06-22",
+      "fecha_emision": "18143245-4",
+      "id_orden_pedido_cabecera": 14,
+      "id_orden_pedido_detalle_fk": "77341784-8",
+      "rut_autoriza": "RECJ",
+      "rut_empresa": "53"
+    },
+    {
+      "estado_seguimiento": "2024-06-25",
+      "fecha_emision": "22199747-6",
+      "hora_fecha_autoriza": "Cristina Maldonado",
+      "id_orden_pedido_cabecera": 15,
+      "id_orden_pedido_detalle_fk": "77341784-8",
+      "nombre_autoriza": "18143245-4",
+      "observaciones_solicitante": "2024-07-03",
+      "rut_autoriza": "APRC",
+      "rut_empresa": "54"
+    },
+    {
+      "estado_seguimiento": "2024-06-26",
+      "fecha_emision": "22199747-6",
+      "id_orden_pedido_cabecera": 16,
+      "id_orden_pedido_detalle_fk": "77341784-8",
+      "rut_autoriza": "REVJ",
+      "rut_empresa": "55"
+    },
+    {
+      "estado_seguimiento": "2024-06-26",
+      "fecha_emision": "22199747-6",
+      "id_orden_pedido_cabecera": 17,
+      "id_orden_pedido_detalle_fk": "77341784-8",
+      "rut_autoriza": "REVJ",
+      "rut_empresa": "56"
+    },
+    {
+      "estado_seguimiento": "2024-06-26",
+      "fecha_emision": "22199747-6",
+      "id_orden_pedido_cabecera": 18,
+      "id_orden_pedido_detalle_fk": "77341784-8",
+      "rut_autoriza": "RECJ",
+      "rut_empresa": "57"
+    },
+    {
+      "estado_seguimiento": "2024-06-27",
+      "fecha_emision": "22199747-6",
+      "id_orden_pedido_cabecera": 19,
+      "id_orden_pedido_detalle_fk": "77341784-8",
+      "rut_autoriza": "REVJ",
+      "rut_empresa": "58"
+    },
+    {
+      "estado_seguimiento": "2024-06-27",
+      "fecha_emision": "22199747-6",
+      "id_orden_pedido_cabecera": 20,
+      "id_orden_pedido_detalle_fk": "77341784-8",
+      "rut_autoriza": "REVJ",
+      "rut_empresa": "59"
+    },
+    {
+      "estado_seguimiento": "2024-06-27",
+      "fecha_emision": "22199747-6",
+      "id_orden_pedido_cabecera": 21,
+      "id_orden_pedido_detalle_fk": "77341784-8",
+      "rut_autoriza": "REVJ",
+      "rut_empresa": "60"
+    },
+    {
+      "estado_seguimiento": "2024-06-27",
+      "fecha_emision": "22199747-6",
+      "id_orden_pedido_cabecera": 22,
+      "id_orden_pedido_detalle_fk": "77341784-8",
+      "rut_autoriza": "REVJ",
+      "rut_empresa": "61"
+    },
+    {
+      "estado_seguimiento": "2024-06-28",
+      "fecha_emision": "22199747-6",
+      "id_orden_pedido_cabecera": 23,
+      "id_orden_pedido_detalle_fk": "77341784-8",
+      "rut_autoriza": "REVJ",
+      "rut_empresa": "62"
+    },
+    {
+      "estado_seguimiento": "2024-07-02",
+      "fecha_emision": "22199747-6",
+      "id_orden_pedido_cabecera": 24,
+      "id_orden_pedido_detalle_fk": "77341784-8",
+      "rut_autoriza": "REVJ",
+      "rut_empresa": "63"
+    },
+    {
+      "estado_seguimiento": "2024-07-02",
+      "fecha_emision": "22199747-6",
+      "id_orden_pedido_cabecera": 25,
+      "id_orden_pedido_detalle_fk": "77341784-8",
+      "rut_autoriza": "PENR",
+      "rut_empresa": "64"
+    },
+    {
+      "estado_seguimiento": "2024-07-02",
+      "fecha_emision": "22199747-6",
+      "id_orden_pedido_cabecera": 26,
+      "id_orden_pedido_detalle_fk": "77341784-8",
+      "rut_autoriza": "PENR",
+      "rut_empresa": "65"
+    },
+    {
+      "estado_seguimiento": "2024-07-02",
+      "fecha_emision": "18143245-4",
+      "id_orden_pedido_cabecera": 27,
+      "id_orden_pedido_detalle_fk": "77341784-8",
+      "rut_autoriza": "PENR",
+      "rut_empresa": "66"
+    },
+    {
+      "estado_seguimiento": "2024-07-03",
+      "fecha_emision": "22199747-6",
+      "id_orden_pedido_cabecera": 28,
+      "id_orden_pedido_detalle_fk": "77341784-8",
+      "rut_autoriza": "PENR",
+      "rut_empresa": "67"
+    },
+    {
+      "estado_seguimiento": "2024-07-03",
+      "fecha_emision": "22199747-6",
+      "hora_fecha_autoriza": "Cristina Maldonado",
+      "id_orden_pedido_cabecera": 29,
+      "id_orden_pedido_detalle_fk": "77341784-8",
+      "nombre_autoriza": "18143245-4",
+      "observaciones_solicitante": "2024-07-03",
+      "rut_autoriza": "APRC",
+      "rut_empresa": "68"
+    },
+    {
+      "estado_seguimiento": "2024-07-03",
+      "fecha_emision": "22199747-6",
+      "id_orden_pedido_cabecera": 30,
+      "id_orden_pedido_detalle_fk": "77341784-8",
+      "rut_autoriza": "PENR",
+      "rut_empresa": "69"
+    },
+    {
+      "estado_seguimiento": "2024-07-03",
+      "fecha_emision": "22199747-6",
+      "id_orden_pedido_cabecera": 31,
+      "id_orden_pedido_detalle_fk": "77341784-8",
+      "rut_autoriza": "PENR",
+      "rut_empresa": "70"
+    },
+    {
+      "estado_seguimiento": "2024-07-06",
+      "fecha_emision": "22199747-6",
+      "id_orden_pedido_cabecera": 32,
+      "id_orden_pedido_detalle_fk": "77341784-8",
+      "rut_autoriza": "PENR",
+      "rut_empresa": "71"
+    },
+    {
+      "estado_seguimiento": "2024-07-06",
+      "fecha_emision": "18143245-4",
+      "id_orden_pedido_cabecera": 33,
+      "id_orden_pedido_detalle_fk": "77341784-8",
+      "rut_autoriza": "PENR",
+      "rut_empresa": "72"
+    }
+  ],
+  "orden_pedido_detalle": [
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "APRC",
+      "id_orden_pedido_cabecera_fk": 35,
+      "id_orden_pedido_detalle": 81,
+      "id_producto": 25,
+      "orden_compra_detalle_fk": 1
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "APRC",
+      "id_orden_pedido_cabecera_fk": 36,
+      "id_orden_pedido_detalle": 82,
+      "id_producto": 30,
+      "orden_compra_detalle_fk": 2
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "APRC",
+      "id_orden_pedido_cabecera_fk": 36,
+      "id_orden_pedido_detalle": 83,
+      "id_producto": 31,
+      "orden_compra_detalle_fk": 3
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "APRC",
+      "id_orden_pedido_cabecera_fk": 36,
+      "id_orden_pedido_detalle": 84,
+      "id_producto": 32,
+      "orden_compra_detalle_fk": 4
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "APRC",
+      "id_orden_pedido_cabecera_fk": 36,
+      "id_orden_pedido_detalle": 85,
+      "id_producto": 33,
+      "orden_compra_detalle_fk": 5
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "PENR",
+      "id_orden_pedido_cabecera_fk": 38,
+      "id_orden_pedido_detalle": 86,
+      "id_producto": 28
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "PENR",
+      "id_orden_pedido_cabecera_fk": 38,
+      "id_orden_pedido_detalle": 87,
+      "id_producto": 29
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "PENR",
+      "id_orden_pedido_cabecera_fk": 38,
+      "id_orden_pedido_detalle": 88,
+      "id_producto": 24
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "PENR",
+      "id_orden_pedido_cabecera_fk": 38,
+      "id_orden_pedido_detalle": 89,
+      "id_producto": 25
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "PENR",
+      "id_orden_pedido_cabecera_fk": 38,
+      "id_orden_pedido_detalle": 90,
+      "id_producto": 26
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "PENR",
+      "id_orden_pedido_cabecera_fk": 38,
+      "id_orden_pedido_detalle": 91,
+      "id_producto": 27
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "PENR",
+      "id_orden_pedido_cabecera_fk": 39,
+      "id_orden_pedido_detalle": 92,
+      "id_producto": 24
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "PENR",
+      "id_orden_pedido_cabecera_fk": 39,
+      "id_orden_pedido_detalle": 93,
+      "id_producto": 25
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "PENR",
+      "id_orden_pedido_cabecera_fk": 39,
+      "id_orden_pedido_detalle": 94,
+      "id_producto": 26
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "PENR",
+      "id_orden_pedido_cabecera_fk": 39,
+      "id_orden_pedido_detalle": 95,
+      "id_producto": 27
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "PENR",
+      "id_orden_pedido_cabecera_fk": 40,
+      "id_orden_pedido_detalle": 96,
+      "id_producto": 20
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "PENR",
+      "id_orden_pedido_cabecera_fk": 40,
+      "id_orden_pedido_detalle": 97,
+      "id_producto": 21
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "PENR",
+      "id_orden_pedido_cabecera_fk": 40,
+      "id_orden_pedido_detalle": 98,
+      "id_producto": 22
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "PENR",
+      "id_orden_pedido_cabecera_fk": 40,
+      "id_orden_pedido_detalle": 99,
+      "id_producto": 23
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "PENR",
+      "id_orden_pedido_cabecera_fk": 40,
+      "id_orden_pedido_detalle": 100,
+      "id_producto": 28
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "PENR",
+      "id_orden_pedido_cabecera_fk": 40,
+      "id_orden_pedido_detalle": 101,
+      "id_producto": 29
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "APRC",
+      "id_orden_pedido_cabecera_fk": 41,
+      "id_orden_pedido_detalle": 102,
+      "id_producto": 19,
+      "orden_compra_detalle_fk": 6
+    },
+    {
+      "cantidad_solicitada": 2,
+      "estado_seguimiento_producto": "REVGC",
+      "id_orden_pedido_cabecera_fk": 42,
+      "id_orden_pedido_detalle": 103,
+      "id_producto": 24,
+      "orden_compra_detalle_fk": 10
+    },
+    {
+      "cantidad_solicitada": 2,
+      "estado_seguimiento_producto": "REVGC",
+      "id_orden_pedido_cabecera_fk": 42,
+      "id_orden_pedido_detalle": 104,
+      "id_producto": 25,
+      "orden_compra_detalle_fk": 11
+    },
+    {
+      "cantidad_solicitada": 2,
+      "estado_seguimiento_producto": "REVGC",
+      "id_orden_pedido_cabecera_fk": 42,
+      "id_orden_pedido_detalle": 105,
+      "id_producto": 26,
+      "orden_compra_detalle_fk": 12
+    },
+    {
+      "cantidad_solicitada": 2,
+      "estado_seguimiento_producto": "REVGC",
+      "id_orden_pedido_cabecera_fk": 42,
+      "id_orden_pedido_detalle": 106,
+      "id_producto": 27,
+      "orden_compra_detalle_fk": 13
+    },
+    {
+      "cantidad_solicitada": 2,
+      "estado_seguimiento_producto": "APRC",
+      "id_orden_pedido_cabecera_fk": 42,
+      "id_orden_pedido_detalle": 107,
+      "id_producto": 19,
+      "orden_compra_detalle_fk": 19
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "APRC",
+      "id_orden_pedido_cabecera_fk": 42,
+      "id_orden_pedido_detalle": 108,
+      "id_producto": 20,
+      "orden_compra_detalle_fk": 22
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "APRC",
+      "id_orden_pedido_cabecera_fk": 42,
+      "id_orden_pedido_detalle": 109,
+      "id_producto": 21,
+      "orden_compra_detalle_fk": 23
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "APRC",
+      "id_orden_pedido_cabecera_fk": 42,
+      "id_orden_pedido_detalle": 110,
+      "id_producto": 22,
+      "orden_compra_detalle_fk": 24
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "APRC",
+      "id_orden_pedido_cabecera_fk": 42,
+      "id_orden_pedido_detalle": 111,
+      "id_producto": 23,
+      "orden_compra_detalle_fk": 25
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "APRC",
+      "id_orden_pedido_cabecera_fk": 42,
+      "id_orden_pedido_detalle": 112,
+      "id_producto": 29,
+      "orden_compra_detalle_fk": 26
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "APRC",
+      "id_orden_pedido_cabecera_fk": 42,
+      "id_orden_pedido_detalle": 113,
+      "id_producto": 28,
+      "orden_compra_detalle_fk": 27
+    },
+    {
+      "cantidad_recepcionada": 1,
+      "cantidad_solicitada": 2,
+      "estado_seguimiento_producto": "COMCC",
+      "id_orden_pedido_cabecera_fk": 42,
+      "id_orden_pedido_detalle": 114,
+      "id_producto": 30,
+      "orden_compra_detalle_fk": 28
+    },
+    {
+      "cantidad_recepcionada": 1,
+      "cantidad_solicitada": 2,
+      "estado_seguimiento_producto": "COMCC",
+      "id_orden_pedido_cabecera_fk": 42,
+      "id_orden_pedido_detalle": 115,
+      "id_producto": 31,
+      "orden_compra_detalle_fk": 29
+    },
+    {
+      "cantidad_recepcionada": 1,
+      "cantidad_solicitada": 2,
+      "estado_seguimiento_producto": "COMCC",
+      "id_orden_pedido_cabecera_fk": 42,
+      "id_orden_pedido_detalle": 116,
+      "id_producto": 32,
+      "orden_compra_detalle_fk": 30
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "REVGC",
+      "id_orden_pedido_cabecera_fk": 42,
+      "id_orden_pedido_detalle": 117,
+      "id_producto": 33,
+      "orden_compra_detalle_fk": 14
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "APRC",
+      "id_orden_pedido_cabecera_fk": 42,
+      "id_orden_pedido_detalle": 118,
+      "id_producto": 34,
+      "orden_compra_detalle_fk": 15
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "APRC",
+      "id_orden_pedido_cabecera_fk": 42,
+      "id_orden_pedido_detalle": 119,
+      "id_producto": 35,
+      "orden_compra_detalle_fk": 16
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "APRC",
+      "id_orden_pedido_cabecera_fk": 42,
+      "id_orden_pedido_detalle": 120,
+      "id_producto": 36,
+      "orden_compra_detalle_fk": 17
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "APRC",
+      "id_orden_pedido_cabecera_fk": 42,
+      "id_orden_pedido_detalle": 121,
+      "id_producto": 37,
+      "orden_compra_detalle_fk": 18
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "APRC",
+      "id_orden_pedido_cabecera_fk": 42,
+      "id_orden_pedido_detalle": 122,
+      "id_producto": 38,
+      "orden_compra_detalle_fk": 21
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "APRC",
+      "id_orden_pedido_cabecera_fk": 42,
+      "id_orden_pedido_detalle": 123,
+      "id_producto": 39,
+      "orden_compra_detalle_fk": 20
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "REVGC",
+      "id_orden_pedido_cabecera_fk": 42,
+      "id_orden_pedido_detalle": 124,
+      "id_producto": 40,
+      "orden_compra_detalle_fk": 7
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "REVGC",
+      "id_orden_pedido_cabecera_fk": 42,
+      "id_orden_pedido_detalle": 125,
+      "id_producto": 41,
+      "orden_compra_detalle_fk": 8
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "REVGC",
+      "id_orden_pedido_cabecera_fk": 42,
+      "id_orden_pedido_detalle": 126,
+      "id_producto": 42,
+      "orden_compra_detalle_fk": 9
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "APRC",
+      "id_orden_pedido_cabecera_fk": 43,
+      "id_orden_pedido_detalle": 127,
+      "id_producto": 24,
+      "orden_compra_detalle_fk": 31
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "APRC",
+      "id_orden_pedido_cabecera_fk": 43,
+      "id_orden_pedido_detalle": 128,
+      "id_producto": 25,
+      "orden_compra_detalle_fk": 32
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "APRC",
+      "id_orden_pedido_cabecera_fk": 43,
+      "id_orden_pedido_detalle": 129,
+      "id_producto": 26,
+      "orden_compra_detalle_fk": 33
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "APRC",
+      "id_orden_pedido_cabecera_fk": 44,
+      "id_orden_pedido_detalle": 130,
+      "id_producto": 27,
+      "orden_compra_detalle_fk": 34
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "APRC",
+      "id_orden_pedido_cabecera_fk": 45,
+      "id_orden_pedido_detalle": 135,
+      "id_producto": 24,
+      "orden_compra_detalle_fk": 35
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "APRC",
+      "id_orden_pedido_cabecera_fk": 45,
+      "id_orden_pedido_detalle": 136,
+      "id_producto": 25,
+      "orden_compra_detalle_fk": 36
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "APRC",
+      "id_orden_pedido_cabecera_fk": 45,
+      "id_orden_pedido_detalle": 137,
+      "id_producto": 26,
+      "orden_compra_detalle_fk": 37
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "APRC",
+      "id_orden_pedido_cabecera_fk": 45,
+      "id_orden_pedido_detalle": 138,
+      "id_producto": 27,
+      "orden_compra_detalle_fk": 38
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "APRC",
+      "id_orden_pedido_cabecera_fk": 46,
+      "id_orden_pedido_detalle": 139,
+      "id_producto": 28,
+      "orden_compra_detalle_fk": 39
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "APRC",
+      "id_orden_pedido_cabecera_fk": 46,
+      "id_orden_pedido_detalle": 140,
+      "id_producto": 29,
+      "orden_compra_detalle_fk": 40
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "APRC",
+      "id_orden_pedido_cabecera_fk": 46,
+      "id_orden_pedido_detalle": 141,
+      "id_producto": 51
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "RECJ",
+      "id_orden_pedido_cabecera_fk": 47,
+      "id_orden_pedido_detalle": 142,
+      "id_producto": 24
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "RECJ",
+      "id_orden_pedido_cabecera_fk": 47,
+      "id_orden_pedido_detalle": 143,
+      "id_producto": 25
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "RECJ",
+      "id_orden_pedido_cabecera_fk": 47,
+      "id_orden_pedido_detalle": 144,
+      "id_producto": 26
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "RECJ",
+      "id_orden_pedido_cabecera_fk": 47,
+      "id_orden_pedido_detalle": 145,
+      "id_producto": 27
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "RECJ",
+      "id_orden_pedido_cabecera_fk": 47,
+      "id_orden_pedido_detalle": 146,
+      "id_producto": 19
+    },
+    {
+      "cantidad_solicitada": 5,
+      "estado_seguimiento_producto": "APRC",
+      "id_orden_pedido_cabecera_fk": 48,
+      "id_orden_pedido_detalle": 147,
+      "id_producto": 23,
+      "orden_compra_detalle_fk": 41
+    },
+    {
+      "cantidad_solicitada": 5,
+      "estado_seguimiento_producto": "APRC",
+      "id_orden_pedido_cabecera_fk": 48,
+      "id_orden_pedido_detalle": 148,
+      "id_producto": 24,
+      "orden_compra_detalle_fk": 42
+    },
+    {
+      "cantidad_solicitada": 5,
+      "estado_seguimiento_producto": "APRC",
+      "id_orden_pedido_cabecera_fk": 48,
+      "id_orden_pedido_detalle": 149,
+      "id_producto": 25,
+      "orden_compra_detalle_fk": 43
+    },
+    {
+      "cantidad_solicitada": 5,
+      "estado_seguimiento_producto": "APRC",
+      "id_orden_pedido_cabecera_fk": 48,
+      "id_orden_pedido_detalle": 150,
+      "id_producto": 26,
+      "orden_compra_detalle_fk": 44
+    },
+    {
+      "cantidad_solicitada": 5,
+      "estado_seguimiento_producto": "APRC",
+      "id_orden_pedido_cabecera_fk": 48,
+      "id_orden_pedido_detalle": 151,
+      "id_producto": 27,
+      "orden_compra_detalle_fk": 45
+    },
+    {
+      "cantidad_solicitada": 2,
+      "estado_seguimiento_producto": "PENR",
+      "id_orden_pedido_cabecera_fk": 49,
+      "id_orden_pedido_detalle": 153,
+      "id_producto": 23
+    },
+    {
+      "cantidad_solicitada": 2,
+      "estado_seguimiento_producto": "PENR",
+      "id_orden_pedido_cabecera_fk": 49,
+      "id_orden_pedido_detalle": 154,
+      "id_producto": 24
+    },
+    {
+      "cantidad_solicitada": 2,
+      "estado_seguimiento_producto": "PENR",
+      "id_orden_pedido_cabecera_fk": 49,
+      "id_orden_pedido_detalle": 155,
+      "id_producto": 25
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "PENR",
+      "id_orden_pedido_cabecera_fk": 49,
+      "id_orden_pedido_detalle": 156,
+      "id_producto": 26
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "PENR",
+      "id_orden_pedido_cabecera_fk": 49,
+      "id_orden_pedido_detalle": 157,
+      "id_producto": 27
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "RECJ",
+      "id_orden_pedido_cabecera_fk": 50,
+      "id_orden_pedido_detalle": 159,
+      "id_producto": 20
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "APRC",
+      "id_orden_pedido_cabecera_fk": 51,
+      "id_orden_pedido_detalle": 160,
+      "id_producto": 20
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "APRC",
+      "id_orden_pedido_cabecera_fk": 51,
+      "id_orden_pedido_detalle": 161,
+      "id_producto": 21
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "APRC",
+      "id_orden_pedido_cabecera_fk": 51,
+      "id_orden_pedido_detalle": 162,
+      "id_producto": 22
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "RECJ",
+      "id_orden_pedido_cabecera_fk": 53,
+      "id_orden_pedido_detalle": 168,
+      "id_producto": 23
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "RECJ",
+      "id_orden_pedido_cabecera_fk": 53,
+      "id_orden_pedido_detalle": 169,
+      "id_producto": 24
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "RECJ",
+      "id_orden_pedido_cabecera_fk": 53,
+      "id_orden_pedido_detalle": 170,
+      "id_producto": 25
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "RECJ",
+      "id_orden_pedido_cabecera_fk": 53,
+      "id_orden_pedido_detalle": 171,
+      "id_producto": 26
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "RECJ",
+      "id_orden_pedido_cabecera_fk": 53,
+      "id_orden_pedido_detalle": 172,
+      "id_producto": 27
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "APRC",
+      "id_orden_pedido_cabecera_fk": 54,
+      "id_orden_pedido_detalle": 173,
+      "id_producto": 23
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "APRC",
+      "id_orden_pedido_cabecera_fk": 54,
+      "id_orden_pedido_detalle": 174,
+      "id_producto": 24
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "APRC",
+      "id_orden_pedido_cabecera_fk": 54,
+      "id_orden_pedido_detalle": 175,
+      "id_producto": 25
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "APRC",
+      "id_orden_pedido_cabecera_fk": 54,
+      "id_orden_pedido_detalle": 176,
+      "id_producto": 26
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "APRC",
+      "id_orden_pedido_cabecera_fk": 54,
+      "id_orden_pedido_detalle": 177,
+      "id_producto": 27
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "REVJ",
+      "id_orden_pedido_cabecera_fk": 55,
+      "id_orden_pedido_detalle": 178,
+      "id_producto": 30
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "REVJ",
+      "id_orden_pedido_cabecera_fk": 56,
+      "id_orden_pedido_detalle": 179,
+      "id_producto": 30
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "RECJ",
+      "id_orden_pedido_cabecera_fk": 57,
+      "id_orden_pedido_detalle": 180,
+      "id_producto": 28
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "RECJ",
+      "id_orden_pedido_cabecera_fk": 57,
+      "id_orden_pedido_detalle": 181,
+      "id_producto": 29
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "REVJ",
+      "id_orden_pedido_cabecera_fk": 58,
+      "id_orden_pedido_detalle": 182,
+      "id_producto": 23
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "REVJ",
+      "id_orden_pedido_cabecera_fk": 58,
+      "id_orden_pedido_detalle": 183,
+      "id_producto": 24
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "REVJ",
+      "id_orden_pedido_cabecera_fk": 58,
+      "id_orden_pedido_detalle": 184,
+      "id_producto": 25
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "REVJ",
+      "id_orden_pedido_cabecera_fk": 58,
+      "id_orden_pedido_detalle": 185,
+      "id_producto": 26
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "REVJ",
+      "id_orden_pedido_cabecera_fk": 58,
+      "id_orden_pedido_detalle": 186,
+      "id_producto": 27
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "REVJ",
+      "id_orden_pedido_cabecera_fk": 59,
+      "id_orden_pedido_detalle": 187,
+      "id_producto": 28
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "REVJ",
+      "id_orden_pedido_cabecera_fk": 59,
+      "id_orden_pedido_detalle": 188,
+      "id_producto": 29
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "REVJ",
+      "id_orden_pedido_cabecera_fk": 59,
+      "id_orden_pedido_detalle": 189,
+      "id_producto": 33
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "REVJ",
+      "id_orden_pedido_cabecera_fk": 59,
+      "id_orden_pedido_detalle": 190,
+      "id_producto": 35
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "REVJ",
+      "id_orden_pedido_cabecera_fk": 59,
+      "id_orden_pedido_detalle": 191,
+      "id_producto": 34
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "REVJ",
+      "id_orden_pedido_cabecera_fk": 59,
+      "id_orden_pedido_detalle": 192,
+      "id_producto": 36
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "REVJ",
+      "id_orden_pedido_cabecera_fk": 59,
+      "id_orden_pedido_detalle": 193,
+      "id_producto": 37
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "REVJ",
+      "id_orden_pedido_cabecera_fk": 60,
+      "id_orden_pedido_detalle": 194,
+      "id_producto": 28
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "REVJ",
+      "id_orden_pedido_cabecera_fk": 60,
+      "id_orden_pedido_detalle": 195,
+      "id_producto": 29
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "REVJ",
+      "id_orden_pedido_cabecera_fk": 61,
+      "id_orden_pedido_detalle": 196,
+      "id_producto": 23
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "REVJ",
+      "id_orden_pedido_cabecera_fk": 61,
+      "id_orden_pedido_detalle": 197,
+      "id_producto": 24
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "REVJ",
+      "id_orden_pedido_cabecera_fk": 61,
+      "id_orden_pedido_detalle": 198,
+      "id_producto": 25
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "REVJ",
+      "id_orden_pedido_cabecera_fk": 61,
+      "id_orden_pedido_detalle": 199,
+      "id_producto": 26
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "REVJ",
+      "id_orden_pedido_cabecera_fk": 61,
+      "id_orden_pedido_detalle": 200,
+      "id_producto": 27
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "REVJ",
+      "id_orden_pedido_cabecera_fk": 62,
+      "id_orden_pedido_detalle": 201,
+      "id_producto": 23
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "REVJ",
+      "id_orden_pedido_cabecera_fk": 62,
+      "id_orden_pedido_detalle": 202,
+      "id_producto": 24
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "REVJ",
+      "id_orden_pedido_cabecera_fk": 62,
+      "id_orden_pedido_detalle": 203,
+      "id_producto": 25
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "REVJ",
+      "id_orden_pedido_cabecera_fk": 62,
+      "id_orden_pedido_detalle": 204,
+      "id_producto": 26
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "REVJ",
+      "id_orden_pedido_cabecera_fk": 62,
+      "id_orden_pedido_detalle": 205,
+      "id_producto": 27
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "REVJ",
+      "id_orden_pedido_cabecera_fk": 62,
+      "id_orden_pedido_detalle": 206,
+      "id_producto": 68
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "REVJ",
+      "id_orden_pedido_cabecera_fk": 62,
+      "id_orden_pedido_detalle": 207,
+      "id_producto": 22
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "REVJ",
+      "id_orden_pedido_cabecera_fk": 63,
+      "id_orden_pedido_detalle": 208,
+      "id_producto": 23
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "REVJ",
+      "id_orden_pedido_cabecera_fk": 63,
+      "id_orden_pedido_detalle": 209,
+      "id_producto": 24
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "REVJ",
+      "id_orden_pedido_cabecera_fk": 63,
+      "id_orden_pedido_detalle": 210,
+      "id_producto": 25
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "REVJ",
+      "id_orden_pedido_cabecera_fk": 63,
+      "id_orden_pedido_detalle": 211,
+      "id_producto": 26
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "REVJ",
+      "id_orden_pedido_cabecera_fk": 63,
+      "id_orden_pedido_detalle": 212,
+      "id_producto": 68
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "REVJ",
+      "id_orden_pedido_cabecera_fk": 63,
+      "id_orden_pedido_detalle": 213,
+      "id_producto": 20
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "REVJ",
+      "id_orden_pedido_cabecera_fk": 63,
+      "id_orden_pedido_detalle": 214,
+      "id_producto": 21
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "REVJ",
+      "id_orden_pedido_cabecera_fk": 63,
+      "id_orden_pedido_detalle": 215,
+      "id_producto": 22
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "REVJ",
+      "id_orden_pedido_cabecera_fk": 63,
+      "id_orden_pedido_detalle": 216,
+      "id_producto": 28
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "REVJ",
+      "id_orden_pedido_cabecera_fk": 63,
+      "id_orden_pedido_detalle": 217,
+      "id_producto": 29
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "REVJ",
+      "id_orden_pedido_cabecera_fk": 63,
+      "id_orden_pedido_detalle": 218,
+      "id_producto": 30
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "REVJ",
+      "id_orden_pedido_cabecera_fk": 63,
+      "id_orden_pedido_detalle": 219,
+      "id_producto": 33
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "REVJ",
+      "id_orden_pedido_cabecera_fk": 63,
+      "id_orden_pedido_detalle": 220,
+      "id_producto": 40
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "REVJ",
+      "id_orden_pedido_cabecera_fk": 63,
+      "id_orden_pedido_detalle": 221,
+      "id_producto": 41
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "REVJ",
+      "id_orden_pedido_cabecera_fk": 63,
+      "id_orden_pedido_detalle": 222,
+      "id_producto": 42
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "PENR",
+      "id_orden_pedido_cabecera_fk": 64,
+      "id_orden_pedido_detalle": 223,
+      "id_producto": 23
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "PENR",
+      "id_orden_pedido_cabecera_fk": 64,
+      "id_orden_pedido_detalle": 224,
+      "id_producto": 24
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "PENR",
+      "id_orden_pedido_cabecera_fk": 64,
+      "id_orden_pedido_detalle": 225,
+      "id_producto": 25
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "PENR",
+      "id_orden_pedido_cabecera_fk": 65,
+      "id_orden_pedido_detalle": 226,
+      "id_producto": 20
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "PENR",
+      "id_orden_pedido_cabecera_fk": 65,
+      "id_orden_pedido_detalle": 227,
+      "id_producto": 21
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "PENR",
+      "id_orden_pedido_cabecera_fk": 65,
+      "id_orden_pedido_detalle": 228,
+      "id_producto": 22
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "PENR",
+      "id_orden_pedido_cabecera_fk": 66,
+      "id_orden_pedido_detalle": 229,
+      "id_producto": 23
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "PENR",
+      "id_orden_pedido_cabecera_fk": 66,
+      "id_orden_pedido_detalle": 230,
+      "id_producto": 24
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "PENR",
+      "id_orden_pedido_cabecera_fk": 66,
+      "id_orden_pedido_detalle": 231,
+      "id_producto": 25
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "PENR",
+      "id_orden_pedido_cabecera_fk": 66,
+      "id_orden_pedido_detalle": 232,
+      "id_producto": 68
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "PENR",
+      "id_orden_pedido_cabecera_fk": 67,
+      "id_orden_pedido_detalle": 233,
+      "id_producto": 23
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "PENR",
+      "id_orden_pedido_cabecera_fk": 67,
+      "id_orden_pedido_detalle": 234,
+      "id_producto": 25
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "PENR",
+      "id_orden_pedido_cabecera_fk": 67,
+      "id_orden_pedido_detalle": 235,
+      "id_producto": 27
+    },
+    {
+      "cantidad_solicitada": 3,
+      "estado_seguimiento_producto": "PENR",
+      "id_orden_pedido_cabecera_fk": 67,
+      "id_orden_pedido_detalle": 236,
+      "id_producto": 30
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "PENR",
+      "id_orden_pedido_cabecera_fk": 67,
+      "id_orden_pedido_detalle": 237,
+      "id_producto": 33
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "PENR",
+      "id_orden_pedido_cabecera_fk": 67,
+      "id_orden_pedido_detalle": 238,
+      "id_producto": 35
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "APRC",
+      "id_orden_pedido_cabecera_fk": 68,
+      "id_orden_pedido_detalle": 239,
+      "id_producto": 30
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "APRC",
+      "id_orden_pedido_cabecera_fk": 68,
+      "id_orden_pedido_detalle": 240,
+      "id_producto": 34
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "PENR",
+      "id_orden_pedido_cabecera_fk": 69,
+      "id_orden_pedido_detalle": 242,
+      "id_producto": 20
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "PENR",
+      "id_orden_pedido_cabecera_fk": 69,
+      "id_orden_pedido_detalle": 243,
+      "id_producto": 21
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "PENR",
+      "id_orden_pedido_cabecera_fk": 69,
+      "id_orden_pedido_detalle": 244,
+      "id_producto": 22
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "PENR",
+      "id_orden_pedido_cabecera_fk": 70,
+      "id_orden_pedido_detalle": 245,
+      "id_producto": 33
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "PENR",
+      "id_orden_pedido_cabecera_fk": 70,
+      "id_orden_pedido_detalle": 246,
+      "id_producto": 34
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "PENR",
+      "id_orden_pedido_cabecera_fk": 70,
+      "id_orden_pedido_detalle": 247,
+      "id_producto": 35
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "PENR",
+      "id_orden_pedido_cabecera_fk": 70,
+      "id_orden_pedido_detalle": 248,
+      "id_producto": 36
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "PENR",
+      "id_orden_pedido_cabecera_fk": 70,
+      "id_orden_pedido_detalle": 249,
+      "id_producto": 37
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "PENR",
+      "id_orden_pedido_cabecera_fk": 71,
+      "id_orden_pedido_detalle": 250,
+      "id_producto": 23
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "PENR",
+      "id_orden_pedido_cabecera_fk": 71,
+      "id_orden_pedido_detalle": 251,
+      "id_producto": 24
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "PENR",
+      "id_orden_pedido_cabecera_fk": 71,
+      "id_orden_pedido_detalle": 252,
+      "id_producto": 25
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "PENR",
+      "id_orden_pedido_cabecera_fk": 71,
+      "id_orden_pedido_detalle": 253,
+      "id_producto": 26
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "PENR",
+      "id_orden_pedido_cabecera_fk": 72,
+      "id_orden_pedido_detalle": 254,
+      "id_producto": 68
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "PENR",
+      "id_orden_pedido_cabecera_fk": 72,
+      "id_orden_pedido_detalle": 255,
+      "id_producto": 28
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "PENR",
+      "id_orden_pedido_cabecera_fk": 72,
+      "id_orden_pedido_detalle": 256,
+      "id_producto": 29
+    },
+    {
+      "cantidad_solicitada": 1,
+      "estado_seguimiento_producto": "PENR",
+      "id_orden_pedido_cabecera_fk": 72,
+      "id_orden_pedido_detalle": 257,
+      "id_producto": 30
+    }
+  ],
+  "precios_productos": [
+    {
+      "KEY": "29990",
+      "id_precio_producto": 1,
+      "id_producto": "77341784-8",
+      "id_proveedor": 20,
+      "precio": 28,
+      "rut_empresa": "219"
+    },
+    {
+      "KEY": "20000",
+      "id_precio_producto": 2,
+      "id_producto": "77341784-8",
+      "id_proveedor": 21,
+      "precio": 28,
+      "rut_empresa": "220"
+    },
+    {
+      "KEY": "7990",
+      "id_precio_producto": 3,
+      "id_producto": "77341784-8",
+      "id_proveedor": 22,
+      "precio": 28,
+      "rut_empresa": "221"
+    },
+    {
+      "KEY": "99990",
+      "id_precio_producto": 4,
+      "id_producto": "77341784-8",
+      "id_proveedor": 23,
+      "precio": 28,
+      "rut_empresa": "222"
+    },
+    {
+      "KEY": "7990",
+      "id_precio_producto": 5,
+      "id_producto": "77341784-8",
+      "id_proveedor": 24,
+      "precio": 24,
+      "rut_empresa": "223"
+    },
+    {
+      "KEY": "4990",
+      "id_precio_producto": 6,
+      "id_producto": "77341784-8",
+      "id_proveedor": 25,
+      "precio": 24,
+      "rut_empresa": "224"
+    },
+    {
+      "KEY": "5990",
+      "id_precio_producto": 7,
+      "id_producto": "77341784-8",
+      "id_proveedor": 26,
+      "precio": 24,
+      "rut_empresa": "225"
+    },
+    {
+      "KEY": "1990",
+      "id_precio_producto": 8,
+      "id_producto": "77341784-8",
+      "id_proveedor": 27,
+      "precio": 24,
+      "rut_empresa": "226"
+    },
+    {
+      "KEY": "7990",
+      "id_precio_producto": 9,
+      "id_producto": "77341784-8",
+      "id_proveedor": 28,
+      "precio": 30,
+      "rut_empresa": "227"
+    },
+    {
+      "KEY": "9990",
+      "id_precio_producto": 10,
+      "id_producto": "77341784-8",
+      "id_proveedor": 29,
+      "precio": 30,
+      "rut_empresa": "228"
+    },
+    {
+      "KEY": "4990",
+      "id_precio_producto": 11,
+      "id_producto": "77341784-8",
+      "id_proveedor": 30,
+      "precio": 31,
+      "rut_empresa": "229"
+    },
+    {
+      "KEY": "7990",
+      "id_precio_producto": 12,
+      "id_producto": "77341784-8",
+      "id_proveedor": 33,
+      "precio": 32,
+      "rut_empresa": "232"
+    },
+    {
+      "KEY": "9990",
+      "id_precio_producto": 13,
+      "id_producto": "77341784-8",
+      "id_proveedor": 34,
+      "precio": 32,
+      "rut_empresa": "233"
+    },
+    {
+      "KEY": "3990",
+      "id_precio_producto": 14,
+      "id_producto": "77341784-8",
+      "id_proveedor": 35,
+      "precio": 32,
+      "rut_empresa": "234"
+    },
+    {
+      "KEY": "2990",
+      "id_precio_producto": 15,
+      "id_producto": "77341784-8",
+      "id_proveedor": 36,
+      "precio": 32,
+      "rut_empresa": "235"
+    },
+    {
+      "KEY": "4990",
+      "id_precio_producto": 16,
+      "id_producto": "77341784-8",
+      "id_proveedor": 37,
+      "precio": 32,
+      "rut_empresa": "236"
+    },
+    {
+      "KEY": "7990",
+      "id_precio_producto": 17,
+      "id_producto": "77341784-8",
+      "id_proveedor": 40,
+      "precio": 34,
+      "rut_empresa": "239"
+    },
+    {
+      "KEY": "9990",
+      "id_precio_producto": 18,
+      "id_producto": "77341784-8",
+      "id_proveedor": 41,
+      "precio": 34,
+      "rut_empresa": "240"
+    },
+    {
+      "KEY": "3990",
+      "id_precio_producto": 19,
+      "id_producto": "77341784-8",
+      "id_proveedor": 42,
+      "precio": 34,
+      "rut_empresa": "241"
+    }
+  ],
+  "productos": [
+    {
+      "KEY": "A",
+      "cod_estado": "Espejos",
+      "id_categoria_productos_fk": 20,
+      "id_producto": "77341784-8",
+      "id_proveedores": 28
+    },
+    {
+      "KEY": "A",
+      "cod_estado": "Barras de acero",
+      "id_categoria_productos_fk": 21,
+      "id_producto": "77341784-8",
+      "id_proveedores": 28
+    },
+    {
+      "KEY": "A",
+      "cod_estado": "Colchonetas",
+      "id_categoria_productos_fk": 22,
+      "id_producto": "77341784-8",
+      "id_proveedores": 28
+    },
+    {
+      "KEY": "A",
+      "cod_estado": "Bidones de agua manantial",
+      "id_categoria_productos_fk": 23,
+      "id_producto": "77341784-8",
+      "id_proveedores": 26
+    },
+    {
+      "KEY": "A",
+      "cod_estado": "Toallas",
+      "id_categoria_productos_fk": 24,
+      "id_producto": "77341784-8",
+      "id_proveedores": 26,
+      "nombre_producto": "17"
+    },
+    {
+      "KEY": "A",
+      "cod_estado": "Frazadas",
+      "id_categoria_productos_fk": 25,
+      "id_producto": "77341784-8",
+      "id_proveedores": 26,
+      "nombre_producto": "17"
+    },
+    {
+      "KEY": "A",
+      "cod_estado": "Tazones",
+      "id_categoria_productos_fk": 26,
+      "id_producto": "77341784-8",
+      "id_proveedores": 26,
+      "nombre_producto": "17"
+    },
+    {
+      "KEY": "A",
+      "cod_estado": "Cucharas",
+      "id_categoria_productos_fk": 27,
+      "id_producto": "77341784-8",
+      "id_proveedores": 26,
+      "nombre_producto": "17"
+    },
+    {
+      "KEY": "A",
+      "cod_estado": "Crema y aceites de masaje",
+      "id_categoria_productos_fk": 28,
+      "id_producto": "77341784-8",
+      "id_proveedores": 30
+    },
+    {
+      "KEY": "A",
+      "cod_estado": "Inciensos",
+      "id_categoria_productos_fk": 29,
+      "id_producto": "77341784-8",
+      "id_proveedores": 30
+    },
+    {
+      "KEY": "A",
+      "cod_estado": "Escritorio",
+      "id_categoria_productos_fk": 30,
+      "id_producto": "77341784-8",
+      "id_proveedores": 31
+    },
+    {
+      "KEY": "A",
+      "cod_estado": "Notebook",
+      "id_categoria_productos_fk": 33,
+      "id_producto": "77341784-8",
+      "id_proveedores": 32
+    },
+    {
+      "KEY": "A",
+      "cod_estado": "Computador",
+      "id_categoria_productos_fk": 34,
+      "id_producto": "77341784-8",
+      "id_proveedores": 32
+    },
+    {
+      "KEY": "A",
+      "cod_estado": "Impresora",
+      "id_categoria_productos_fk": 35,
+      "id_producto": "77341784-8",
+      "id_proveedores": 32
+    },
+    {
+      "KEY": "A",
+      "cod_estado": "Parlantes",
+      "id_categoria_productos_fk": 36,
+      "id_producto": "77341784-8",
+      "id_proveedores": 32
+    },
+    {
+      "KEY": "A",
+      "cod_estado": "Ampolletas",
+      "id_categoria_productos_fk": 37,
+      "id_producto": "77341784-8",
+      "id_proveedores": 32
+    },
+    {
+      "KEY": "A",
+      "cod_estado": "Delantal institucional",
+      "id_categoria_productos_fk": 40,
+      "id_producto": "77341784-8",
+      "id_proveedores": 34
+    },
+    {
+      "KEY": "A",
+      "cod_estado": "Short",
+      "id_categoria_productos_fk": 41,
+      "id_producto": "77341784-8",
+      "id_proveedores": 34
+    },
+    {
+      "KEY": "A",
+      "cod_estado": "Poleras",
+      "id_categoria_productos_fk": 42,
+      "id_producto": "77341784-8",
+      "id_proveedores": 34
+    },
+    {
+      "KEY": "A",
+      "cod_estado": "Calefactores",
+      "id_categoria_productos_fk": 68,
+      "id_producto": "77341784-8",
+      "id_proveedores": 27
+    },
+    {
+      "KEY": "A",
+      "cod_estado": "Lápices",
+      "id_categoria_productos_fk": 87,
+      "id_producto": "77341784-8",
+      "id_proveedores": 33
+    },
+    {
+      "KEY": "A",
+      "cod_estado": "Cuadernos",
+      "id_categoria_productos_fk": 88,
+      "id_producto": "77341784-8",
+      "id_proveedores": 33
+    }
+  ],
+  "proveedores": [
+    {
+      "KEY": "A",
+      "celular_contacto": "Juan",
+      "ciudad": "Antonio Varas 1112",
+      "cod_estado": "Menaje, Muebles",
+      "direccion": "Ferreterias Weitzler",
+      "email_proveedor": "987654321",
+      "giro": "jalvandersona@gmail.com",
+      "id_proveedores": 1,
+      "nombre_contacto_proveedor": "Puerto Montt",
+      "razon_social": "92874000-5",
+      "rut_empresa": "13",
+      "rut_proveedor": "77341784-8"
+    },
+    {
+      "ciudad": "Antonio Varas 1070",
+      "cod_estado": "Supermercado",
+      "direccion": "Sociedad comercial Ohiggins LTDA",
+      "id_proveedores": 2,
+      "nombre_contacto_proveedor": "Puerto Montt",
+      "razon_social": "78494010-1",
+      "rut_empresa": "14",
+      "rut_proveedor": "77341784-8"
+    },
+    {
+      "celular_contacto": "Vendedor virtual",
+      "ciudad": "Vitacura 9033",
+      "cod_estado": "Ventas de artículos e insumos médicos.",
+      "direccion": "Camillas Chile",
+      "email_proveedor": "979336836",
+      "id_proveedores": 3,
+      "nombre_contacto_proveedor": "Santiago",
+      "razon_social": "76604207-4",
+      "rut_empresa": "15",
+      "rut_proveedor": "77341784-8"
+    },
+    {
+      "ciudad": "José Miguel Carrera 244",
+      "cod_estado": "Fabricación de ventanas y espejos",
+      "direccion": "Vidrios y Ventanas Chamia",
+      "email_proveedor": "652260658",
+      "id_proveedores": 4,
+      "nombre_contacto_proveedor": "Puerto Montt",
+      "razon_social": "13968324-2",
+      "rut_empresa": "16",
+      "rut_proveedor": "77341784-8"
+    },
+    {
+      "celular_contacto": "Karen Pérez",
+      "ciudad": "Avenida Presidente Ibañez 121",
+      "cod_estado": "Ventas al por menor de Insumos de limpieza y papelería",
+      "direccion": "Distribuidora e importadora Ditor SPA",
+      "email_proveedor": "971882024",
+      "id_proveedores": 5,
+      "nombre_contacto_proveedor": "Puerto Montt",
+      "razon_social": "77049423-0",
+      "rut_empresa": "17",
+      "rut_proveedor": "77341784-8"
+    },
+    {
+      "celular_contacto": "Mirtha Osadey",
+      "ciudad": "Victoria 1185",
+      "cod_estado": "Venta de insumos de perfumería, tocador y cosméticos.",
+      "direccion": "Insumestetic",
+      "email_proveedor": "959180297",
+      "giro": "correo@insumestetic.com",
+      "id_proveedores": 6,
+      "nombre_contacto_proveedor": "Santiago",
+      "razon_social": "76026493-8",
+      "rut_empresa": "18",
+      "rut_proveedor": "77341784-8"
+    },
+    {
+      "celular_contacto": "Raquel Cáceres",
+      "ciudad": "Camino al Tepual kilómetro 1,5",
+      "cod_estado": "Fabricación de prendas de vestir",
+      "direccion": "Leyad Ltda",
+      "email_proveedor": "989025305",
+      "id_proveedores": 7,
+      "nombre_contacto_proveedor": "Puerto Montt",
+      "razon_social": "76006231-6",
+      "rut_empresa": "19",
+      "rut_proveedor": "77341784-8"
+    },
+    {
+      "ciudad": "Los Robles 540",
+      "cod_estado": "Captación, tratamiento y distribución de agua",
+      "direccion": "Manantial S.A",
+      "id_proveedores": 8,
+      "nombre_contacto_proveedor": "Quilicura",
+      "razon_social": "96711590-8",
+      "rut_empresa": "20",
+      "rut_proveedor": "77341784-8"
+    },
+    {
+      "celular_contacto": "José Moreno",
+      "ciudad": "Antonio Varas 678",
+      "cod_estado": "Venta de telas",
+      "direccion": "Chantilly telas Puerto Montt",
+      "email_proveedor": "652854132",
+      "id_proveedores": 9,
+      "nombre_contacto_proveedor": "Puerto Montt",
+      "razon_social": "77704530-K",
+      "rut_empresa": "21",
+      "rut_proveedor": "77341784-8"
+    },
+    {
+      "ciudad": "Volcán Hudson 780",
+      "cod_estado": "Confección de ropa institucional",
+      "direccion": "Rsn Tomasito",
+      "email_proveedor": "94903234",
+      "id_proveedores": 10,
+      "nombre_contacto_proveedor": "Puerto Montt",
+      "razon_social": "10214564-K",
+      "rut_empresa": "22",
+      "rut_proveedor": "77341784-8"
+    }
+  ],
+  "roles": [
+    {
+      "KEY": "Administrador",
+      "cod_rol": "76301004-k",
+      "id_roles": 1,
+      "nombre_rol": "1",
+      "rut_empresa": "1"
+    },
+    {
+      "KEY": "Gerencia",
+      "cod_rol": "76301004-k",
+      "id_roles": 2,
+      "nombre_rol": "6",
+      "rut_empresa": "2"
+    },
+    {
+      "KEY": "Adquisidores",
+      "cod_rol": "76301004-k",
+      "id_roles": 3,
+      "nombre_rol": "5",
+      "rut_empresa": "3"
+    },
+    {
+      "KEY": "Operadores",
+      "cod_rol": "76301004-k",
+      "id_roles": 4,
+      "nombre_rol": "2",
+      "rut_empresa": "4"
+    },
+    {
+      "KEY": "Solicitante",
+      "cod_rol": "76301004-k",
+      "id_roles": 5,
+      "nombre_rol": "3",
+      "rut_empresa": "5"
+    },
+    {
+      "KEY": "Jefatura",
+      "cod_rol": "76301004-k",
+      "id_roles": 6,
+      "nombre_rol": "4",
+      "rut_empresa": "6"
+    }
+  ],
+  "usuarios": [
+    {
+      "KEY": "A",
+      "cod_estado": "JavierAndres",
+      "cod_rol": 123,
+      "contraseña": "12345678-9",
+      "email_usuario": "1",
+      "id_departamento": 1,
+      "id_usuario": 1,
+      "nombre_usuario": "admin@example.com",
+      "rut_empresa": "1",
+      "rut_usuario": "76301004-k"
+    },
+    {
+      "KEY": "A",
+      "cod_estado": "Andres",
+      "cod_rol": 123,
+      "contraseña": "34567778-9",
+      "email_usuario": "1",
+      "id_departamento": 3,
+      "id_usuario": 2,
+      "nombre_usuario": "solicitante@example.com",
+      "rut_empresa": "2",
+      "rut_usuario": "76301004-k"
+    },
+    {
+      "KEY": "A",
+      "cod_estado": "Leslie Anderson",
+      "cod_rol": 123,
+      "contraseña": "8849328-1",
+      "email_usuario": "1",
+      "id_departamento": 4,
+      "id_usuario": 3,
+      "nombre_usuario": "leslie@example.com",
+      "rut_empresa": "4",
+      "rut_usuario": "76301004-k"
+    },
+    {
+      "KEY": "A",
+      "cod_estado": "pablo",
+      "cod_rol": 123,
+      "contraseña": "88888888-8",
+      "email_usuario": "1",
+      "id_departamento": 2,
+      "id_usuario": 4,
+      "nombre_usuario": "pablo@example.com",
+      "rut_empresa": "6",
+      "rut_usuario": "77341784-8"
+    },
+    {
+      "KEY": "A",
+      "cod_estado": "Roberto Rojas",
+      "cod_rol": 123,
+      "contraseña": "123123-1",
+      "email_usuario": "1",
+      "id_departamento": 5,
+      "id_usuario": 5,
+      "nombre_usuario": "roberto@example.com",
+      "rut_empresa": "18",
+      "rut_usuario": "76301004-k"
+    },
+    {
+      "KEY": "A",
+      "cod_estado": "Remigio Ramirez",
+      "cod_rol": 123,
+      "contraseña": "432432-4",
+      "email_usuario": "10",
+      "id_departamento": 6,
+      "id_usuario": 6,
+      "nombre_usuario": "remigio.ra@example.com",
+      "rut_empresa": "51",
+      "rut_usuario": "76301004-k"
+    },
+    {
+      "KEY": "A",
+      "cod_estado": "Cecilia Anderson",
+      "cod_rol": 123,
+      "contraseña": "12309451-4",
+      "email_usuario": "19",
+      "id_departamento": 6,
+      "id_usuario": 7,
+      "nombre_usuario": "cecilia@example.com",
+      "rut_empresa": "70",
+      "rut_usuario": "77341784-8"
+    },
+    {
+      "KEY": "A",
+      "cod_estado": "Cristina Maldonado",
+      "cod_rol": 123,
+      "contraseña": "18143245-4",
+      "email_usuario": "19",
+      "id_departamento": 4,
+      "id_usuario": 8,
+      "nombre_usuario": "cristina@example.com",
+      "rut_empresa": "71",
+      "rut_usuario": "77341784-8"
+    },
+    {
+      "KEY": "A",
+      "cod_estado": "Eugenia Jerez",
+      "cod_rol": 123,
+      "contraseña": "13457249-3",
+      "email_usuario": "19",
+      "id_departamento": 5,
+      "id_usuario": 9,
+      "nombre_usuario": "j.alvanderson.96@gmail.com",
+      "rut_empresa": "72",
+      "rut_usuario": "77341784-8"
+    },
+    {
+      "KEY": "A",
+      "cod_estado": "Carolina Segovia",
+      "cod_rol": 123,
+      "contraseña": "16627703-5",
+      "email_usuario": "27",
+      "id_departamento": 4,
+      "id_usuario": 10,
+      "nombre_usuario": "carolina@example.com",
+      "rut_empresa": "73",
+      "rut_usuario": "77341784-8"
+    },
+    {
+      "KEY": "A",
+      "cod_estado": "Tatiana Valenzuela",
+      "cod_rol": 123,
+      "contraseña": "16319374-4",
+      "email_usuario": "26",
+      "id_departamento": 4,
+      "id_usuario": 11,
+      "nombre_usuario": "tatiana@example.com",
+      "rut_empresa": "74",
+      "rut_usuario": "77341784-8"
+    },
+    {
+      "KEY": "A",
+      "cod_estado": "Constanza Hernández",
+      "cod_rol": 123,
+      "contraseña": "22199747-6",
+      "email_usuario": "19",
+      "id_departamento": 3,
+      "id_usuario": 12,
+      "nombre_usuario": "constanza@example.com",
+      "rut_empresa": "75",
+      "rut_usuario": "77341784-8"
+    },
+    {
+      "KEY": "A",
+      "cod_estado": "Jessenia Rivas",
+      "cod_rol": 123,
+      "contraseña": "19058346-5",
+      "email_usuario": "19",
+      "id_departamento": 3,
+      "id_usuario": 13,
+      "nombre_usuario": "jessenia@example.com",
+      "rut_empresa": "76",
+      "rut_usuario": "77341784-8"
+    },
+    {
+      "KEY": "A",
+      "cod_estado": "Varinia Araya",
+      "cod_rol": 123,
+      "contraseña": "19359909-5",
+      "email_usuario": "26",
+      "id_departamento": 3,
+      "id_usuario": 14,
+      "nombre_usuario": "varinia@example.com",
+      "rut_empresa": "77",
+      "rut_usuario": "77341784-8"
+    },
+    {
+      "KEY": "A",
+      "cod_estado": "Catalina De Los Reyes",
+      "cod_rol": 123,
+      "contraseña": "18188213-1",
+      "email_usuario": "27",
+      "id_departamento": 3,
+      "id_usuario": 15,
+      "nombre_usuario": "catalina@example.com",
+      "rut_empresa": "78",
+      "rut_usuario": "77341784-8"
+    }
+  ]
+}
