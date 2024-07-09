@@ -1,9 +1,0 @@
-{
-  "projects": {
-    "default": "controlcomprasserver-dddf2",
-    "develop": "controlcomprasserver-dddf2"
-  },
-  "targets": {},
-  "etags": {},
-  "dataconnectEmulatorConfig": {}
-}
