@@ -1,6 +1,6 @@
 const { Sequelize } = require('sequelize');
 // require('dotenv').config();
-require('dotenv').config({ path: '/etc/secrets/.env' });
+require('dotenv').config({});
 
 const sequelize = new Sequelize(
     process.env.DB_DATABASE,  // Nombre de la base de datos
