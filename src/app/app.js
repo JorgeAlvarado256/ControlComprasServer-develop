@@ -48,14 +48,12 @@ app.use(passport.session());
 
 // Configuración de CORS
 const corsOptions = {
-    origin: 'https://control-compras-front-e8fe7.web.app', // Cambia esto al origen adecuado de tu frontend
-    methods: ['GET', 'POST', 'PUT', 'DELETE'],
-    allowedHeaders: ['Content-Type', 'Authorization'],
-    credentials: true // Permite incluir cookies en las solicitudes (necesario si usas sesiones con Passport)
-};
-
+    origin: 'https://control-compras-front-e8fe7.web.app',
+    optionsSuccessStatus: 200
+  };
+  
 app.use(cors(corsOptions));
-
+  
 // Middlewares
 app.use(morgan('dev'));
 app.use(express.json());

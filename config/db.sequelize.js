@@ -1,5 +1,5 @@
 const { Sequelize } = require('sequelize');
-require('dotenv').config();
+require('dotenv').config({ path: '/etc/secrets/.env' });
 
 const sequelize = new Sequelize(
     process.env.MYSQL_ADDON_DB,        // Nombre de la base de datos
