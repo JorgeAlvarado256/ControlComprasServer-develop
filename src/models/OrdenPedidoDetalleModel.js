@@ -51,6 +51,9 @@ OrdenPedidoDetalle.init(
     timestamps: false,
     tableName: 'orden_pedido_detalle',
   }
+
+  
 );
+
 
 module.exports = { OrdenPedidoDetalle };

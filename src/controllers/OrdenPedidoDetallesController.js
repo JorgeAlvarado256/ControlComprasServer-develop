@@ -5,7 +5,7 @@ const { Op } = require('sequelize');
 
 const { OrdenPedidoDetalle } = require('../models/OrdenPedidoDetalleModel');
 const { OrdenPedidoCabecera } = require('../models/OrdenPedidoCabeceraModel')
-const { Producto } = require('../models/ProductoModel')
+const  Producto  = require('../models/ProductoModel')
 const { Usuario } = require('../models/UsuarioModel')
 const { Departamento } = require('../models/DepartamentoModel')
 const { Empresa } = require('../models/EmpresaModel')
@@ -423,26 +423,27 @@ exports.obtenerPedidosAprobados = async (req, res) => {
   try {
     const rut_empresa = req.body.rut_empresa;
     const pedidos = await OrdenPedidoDetalle.findAll({ 
-      //estado: { $in: ['APRC', 'APRO'] },
-      where:{
+      distinct: true,
+      where: {
         orden_compra_detalle_fk: null,
         estado_seguimiento_producto: { [Op.in]: ['APRC', 'APRO'] }
       },
       include: [{ 
         model: Producto,
-        required: true,
         as: 'producto',
+        required: true,
+        where: { rut_empresa: rut_empresa },
         include: [{
           model: CategoriaProducto,
-          required: true,
           as: 'categoria',
-        }],
-        where: { rut_empresa: rut_empresa }
+          required: true,
+        }]
       }],
     });
-    res.json({pedidos});
+    res.json({ pedidos });
   } catch (error) {
     console.log(error);
     res.status(500).json({ message: 'Error al obtener los pedidos aprobados' });
   }
 };
+

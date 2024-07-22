@@ -1,6 +1,7 @@
-// DetalleCotizacionModel.js
 const { DataTypes, Model } = require('sequelize');
 const sequelize = require('../../config/db.sequelize');
+const Cotizacion = require('./CotizacionModel');
+const Producto = require('./ProductoModel');
 
 class DetalleCotizacion extends Model {}
 
@@ -50,8 +51,13 @@ DetalleCotizacion.init({
 }, {
   sequelize,
   modelName: 'DetalleCotizacion',
+  tableName: 'detalle_cotizaciones',
   timestamps: false,
-  tableName: 'detalle_cotizaciones'
 });
+
+DetalleCotizacion.associate = function(models) {
+  DetalleCotizacion.belongsTo(models.Cotizacion, { as: 'cotizacion', foreignKey: 'cotizacionId' });
+  DetalleCotizacion.belongsTo(models.Producto, { as: 'producto', foreignKey: 'productoId' });
+};
 
 module.exports = DetalleCotizacion;

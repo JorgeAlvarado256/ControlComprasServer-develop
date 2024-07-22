@@ -1,11 +1,10 @@
 const { DataTypes, Model } = require('sequelize');
-require('dotenv').config();
 const sequelize = require('../../config/db.sequelize');
-const { OrdenPedidoDetalle } = require('../models/OrdenPedidoDetalleModel');
-const {CategoriaProducto} = require('./CategoriaProductoModel');
+const {CategoriaProducto }= require('./CategoriaProductoModel');
+const {OrdenPedidoDetalle }= require('./OrdenPedidoDetalleModel');
 const {OrdenCompraDetalle} = require('./OrdenCompraDetalleModel');
 
-class Producto extends Model {} 
+class Producto extends Model {}
 
 Producto.init({
   id_producto: {
@@ -27,51 +26,46 @@ Producto.init({
     allowNull: false,
   }
 }, {
-    sequelize,
-    modelName: 'productos', // Nombre de la tabla en la base de datos
-    timestamps: false, // Desactiva la creación automática de campos 'createdAt' y 'updatedAt'
-    tableName: 'productos'
-
+  sequelize,
+  modelName: 'Producto',
+  timestamps: false,
+  tableName: 'productos'
 });
 
-// Define relaciones si es necesario
-// Producto.belongsTo(Empresa, { foreignKey: 'rut_empresa' });
-OrdenPedidoDetalle.belongsTo(Producto, {
-  foreignKey: 'id_producto',
-  as: 'producto',
+// Relaciones
+
+Producto.associate = function(models) {
+  Producto.belongsTo(models.CategoriaProducto, { as: 'categoria', foreignKey: 'categoriaId' });
+};
+
+Producto.belongsTo(CategoriaProducto, {
+  foreignKey: 'id_categoria_productos_fk',
+  as: 'categoria'
 });
-Producto.hasMany(OrdenPedidoDetalle, {
-  foreignKey: 'id_producto',
-  as: 'detallesProductos',
-});
+
 CategoriaProducto.hasMany(Producto, {
   foreignKey: 'id_categoria_productos_fk',
-  as:  'productos'
+  as: 'productos'
 });
-Producto.belongsTo(CategoriaProducto, {
-  foreignKey:'id_categoria_productos_fk',
-  as: 'categoria'
+
+Producto.hasMany(OrdenPedidoDetalle, {
+  foreignKey: 'id_producto',
+  as: 'ordenPedidoDetalles'
+});
+
+OrdenPedidoDetalle.belongsTo(Producto, {
+  foreignKey: 'id_producto',
+  as: 'producto'
+});
+
+Producto.hasMany(OrdenCompraDetalle, {
+  foreignKey: 'id_producto',
+  as: 'ordenCompraDetalles'
 });
 
 OrdenCompraDetalle.belongsTo(Producto, {
   foreignKey: 'id_producto',
-  target: 'id_producto',
-  as: 'producto',
+  as: 'producto'
 });
-Producto.hasMany(OrdenCompraDetalle, {
-  foreignKey: 'id_producto',
-  target: 'id_producto',
-  as: 'producto',
-});
-// OrdenCompraDetalle.hasMany(Producto, {
-//   foreignKey: 'id_producto',
-//   target: 'id_producto',
-//   as: 'producto',
-// });
-// Producto.belongsTo(OrdenCompraDetalle, {
-//   foreignKey: 'id_producto',
-//   target: 'id_producto',
-//   as: 'producto',
-// });
 
-module.exports = { Producto };
+module.exports = Producto;

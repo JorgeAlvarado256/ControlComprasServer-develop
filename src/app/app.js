@@ -1,17 +1,17 @@
-// Require de módulos y configuración inicial
-require('dotenv').config({ path: '/etc/secrets/.env' });
-// require('dotenv').config({ path: '.env' });
 const express = require('express');
-const morgan = require('morgan');
+const bodyParser = require('body-parser');
 const cors = require('cors');
 const session = require('express-session');
 const passport = require('passport');
 const sgMail = require('@sendgrid/mail');
 const multer = require('multer');
 const path = require('path');
-const fs = require('fs');
-// const { descargarArchivosAdjuntos } = require('../utils/imap');
+const morgan = require('morgan');
+const dotenv = require('dotenv');
+const recibirCorreos = require('../utils/receiveEmails'); // Ruta correcta
 
+// Cargar variables de entorno
+dotenv.config();
 
 // Rutas importadas
 const AuthRouter = require('../routes/AuthRoutes');
@@ -27,7 +27,7 @@ const OrdenCompraDetallesRouter = require('../routes/OrdenCompraDetallesRoutes')
 const OrdenCompraCabeceraRouter = require('../routes/OrdenCompraCabeceraRoutes');
 const EstadoRouter = require('../routes/EstadoRoutes');
 const CotizacionRouter = require('../routes/CotizacionRoutes');
-// const imapRouter = require('../utils/imap');
+const kpiRoutes = require('../routes/kpiRoutes'); // Usa el nombre del archivo que queda
 
 // Directorio para subida de archivos
 const uploadDir = path.join(__dirname, 'uploads');
@@ -35,7 +35,7 @@ const uploadDir = path.join(__dirname, 'uploads');
 // Configuración de Express
 const app = express();
 
-// Configuración de sesión
+// Middleware de sesión
 app.use(session({
     secret: 'secreto',
     resave: false,
@@ -50,13 +50,14 @@ app.use(passport.session());
 const corsOptions = {
     origin: 'https://control-compras-front-e8fe7.web.app',
     optionsSuccessStatus: 200
-  };
-  
+};
 app.use(cors(corsOptions));
-  
+
 // Middlewares
 app.use(morgan('dev'));
 app.use(express.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
 
 // Ruta de prueba
 app.get('/', (req, res) => {
@@ -80,7 +81,7 @@ app.use('/api/v1', OrdenPedidoCabeceraRouter);
 app.use('/api/v1', OrdenCompraDetallesRouter);
 app.use('/api/v1', EstadoRouter);
 app.use('/api/v1', CotizacionRouter);
-// app.use('/api/v1',imapRouter );
+app.use('/api/v1', kpiRoutes);
 
 // Configuración de Multer para la carga de archivos PDF
 const storage = multer.diskStorage({
@@ -91,7 +92,6 @@ const storage = multer.diskStorage({
         cb(null, file.originalname); // Puedes personalizar el nombre del archivo si lo deseas
     }
 });
-
 const upload = multer({ storage: storage });
 
 // Ruta para manejar la carga de archivos PDF
@@ -111,7 +111,45 @@ app.use((err, req, res, next) => {
     }
 });
 
-// module.exports = { descargarArchivosAdjuntos };
+// Ruta para manejar el webhook de Mailgun
+app.post('/webhook/mailgun', async (req, res) => {
+    try {
+        const { recipient, subject, from, 'body-plain': body } = req.body;
 
+        // Procesar el correo electrónico recibido
+        const cotizacionId = extractCotizacionIdFromSubject(subject);
+        const proveedorEmail = extractProveedorEmail(from);
+
+        // Buscar la cotización en la base de datos
+        const cotizacion = await Cotizacion.findByPk(cotizacionId);
+        if (!cotizacion) {
+            return res.status(404).json({ message: 'Cotización no encontrada' });
+        }
+
+        // Actualizar la cotización con la respuesta del proveedor
+        cotizacion.respuesta_proveedor = body;
+        await cotizacion.save();
+
+        res.status(200).json({ message: 'Correo procesado y cotización actualizada' });
+    } catch (error) {
+        console.error('Error al procesar el correo:', error);
+        res.status(500).json({ message: 'Error interno del servidor' });
+    }
+});
+
+const extractCotizacionIdFromSubject = (subject) => {
+    // Implementa tu lógica para extraer el ID de cotización del asunto del correo
+    return subject.split(' ')[1]; // Ejemplo simple
+};
+
+const extractProveedorEmail = (from) => {
+    // Implementa tu lógica para extraer el correo del proveedor del campo 'from'
+    return from;
+};
+
+// Iniciar la recepción de correos en segundo plano
+recibirCorreos().catch(error => {
+    console.error('Error al iniciar la recepción de correos:', error);
+});
 
 module.exports = app;

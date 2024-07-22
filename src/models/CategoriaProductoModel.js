@@ -43,5 +43,8 @@ CategoriaProducto.init(
 //   foreignKey:'id_categoria_productos_fk',
 //   as: 'categoria'
 // });
+CategoriaProducto.associate = function(models) {
+  CategoriaProducto.hasMany(models.Producto, { as: 'productos', foreignKey: 'categoriaId' });
+};
 
 module.exports = { CategoriaProducto };

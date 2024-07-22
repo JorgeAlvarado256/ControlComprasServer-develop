@@ -1,5 +1,6 @@
 const Cotizacion = require('../models/CotizacionModel');
 const DetalleCotizacion = require('../models/DetalleCotizacionModel');
+const {CategoriaProducto} = require('../models/CategoriaProductoModel');
 const { Proveedor } = require('../models/ProveedorModel');
 const { Producto } = require('../models/ProductoModel');
 const { Usuario } = require('../models/UsuarioModel'); // Importa el modelo de Usuario
@@ -20,24 +21,7 @@ exports.crearCotizacion = async (req, res) => {
   }
 };
 
-exports.obtenerCotizaciones = async (req, res) => {
-  try {
-    const cotizaciones = await Cotizacion.findAll({
-      include: {
-        model: DetalleCotizacion,
-        include: {
-          model: Producto, // Corregimos aquí
-          as: 'producto' // Alias para acceder a los datos del producto
-        },
-        as: 'detalles'
-      }
-    });
-    res.status(200).json(cotizaciones);
-  } catch (error) {
-    console.error('Error al obtener cotizaciones:', error);
-    res.status(500).json({ message: 'Error interno del servidor' });
-  }
-};
+
 
 exports.actualizarCotizacion = async (req, res) => {
   const { id } = req.params;
@@ -71,21 +55,9 @@ exports.eliminarCotizacion = async (req, res) => {
   }
 };
 
-exports.obtenerSolicitudes = async (req, res) => {
-  try {
-    const solicitudes = await Cotizacion.findAll({
-      include: DetalleCotizacion // Esto carga los detalles asociados a cada cotización
-    });
-    res.json(solicitudes);
-  } catch (error) {
-    console.error('Error al obtener las solicitudes:', error);
-    res.status(500).json({ message: 'Error interno del servidor' });
-  }
-};
-
 exports.enviarSolicitudCotizacion = async (req, res) => {
   try {
-    const { fecha_emision, estado_seguimiento, detalles } = req.body;
+    const { rut_empresa, fecha_emision, estado_seguimiento, detalles } = req.body;
 
     console.log('Datos recibidos en la solicitud:', req.body);
 
@@ -96,7 +68,7 @@ exports.enviarSolicitudCotizacion = async (req, res) => {
 
     // Verificar si cada detalle de cotización tiene la información necesaria
     for (const detalle of detalles) {
-      if (!detalle.id_producto || !detalle.cantidad_solicitada || !detalle.id_orden_pedido_cabecera_fk) {
+      if (!detalle.rut_empresa||!detalle.id_producto || !detalle.cantidad_solicitada || !detalle.id_orden_pedido_cabecera_fk) {
         return res.status(400).json({ message: 'Los detalles de cotización deben contener id_producto, cantidad_solicitada y id_orden_pedido_cabecera_fk' });
       }
     }
@@ -104,7 +76,8 @@ exports.enviarSolicitudCotizacion = async (req, res) => {
     // Crear la nueva cotización
     const nuevaCotizacion = await Cotizacion.create({
       fecha_emision,
-      estado_seguimiento
+      estado_seguimiento,
+      rut_empresa
     });
 
     // Crear los detalles de cotización asociados a la nueva cotización
@@ -127,24 +100,106 @@ exports.enviarSolicitudCotizacion = async (req, res) => {
   }
 };
 
-exports.obtenerDetallesCotizacion = async (req, res) => {
-  try {
-    const detalles = await DetalleCotizacion.findAll();
-    res.status(200).json(detalles);
-  } catch (error) {
-    console.error('Error al obtener detalles de cotización:', error);
-    res.status(500).json({ message: 'Error interno del servidor' });
-  }
-};
+// exports.obtenerCotizaciones = async (req, res) => {
+//   try {
+//     const cotizaciones = await Cotizacion.findAll({
+//       include: [
+//         {
+//           model: DetalleCotizacion,
+//           as: 'detalles',
+//           include: [
+//             {
+//               model: Producto,
+//               as: 'producto'
+//             }
+//           ]
+//         }
+//       ]
+//     });
+//     res.status(200).json(cotizaciones);
+//   } catch (error) {
+//     console.error(`Error al obtener las cotizaciones: ${error.message}`, error);
+//     res.status(500).json({ error: 'Error al obtener las cotizaciones', detalle: error.message });
+//   }
+// };
+// exports.obtenerSolicitudes = async (req, res) => {
+//   try {
+//     const solicitudes = await Cotizacion.findAll({
+//       include: DetalleCotizacion // Esto carga los detalles asociados a cada cotización
+//     });
+//     res.json(solicitudes);
+//   } catch (error) {
+//     console.error('Error al obtener las solicitudes:', error);
+//     res.status(500).json({ message: 'Error interno del servidor' });
+//   }
+// };
+// exports.obtenerDetallesCotizacion = async (req, res) => {
+//   try {
+//     const detalles = await DetalleCotizacion.findAll();
+//     res.status(200).json(detalles);
+//   } catch (error) {
+//     console.error('Error al obtener detalles de cotización:', error);
+//     res.status(500).json({ message: 'Error interno del servidor' });
+//   }
+// };
+// exports.obtenerPedidosCotizados = async (req, res) => {
+//   try {
+//     const cotizaciones = await Cotizacion.findAll();
+//     const pedidosCotizados = cotizaciones.map(cotizacion => cotizacion.id_orden_pedido_cabecera_fk);
+//     res.status(200).json(pedidosCotizados);
+//   } catch (error) {
+//     console.error('Error al obtener pedidos cotizados:', error);
+//     res.status(500).json({ message: 'Error interno del servidor' });
+//   }
+// };
 
-exports.obtenerPedidosCotizados = async (req, res) => {
+exports.obtenerInformacionCotizaciones = async (req, res) => {
+  const { nivelDetalle } = req.params; // El nivel de detalle se obtiene de los parámetros de la solicitud
+  
   try {
-    const cotizaciones = await Cotizacion.findAll();
-    const pedidosCotizados = cotizaciones.map(cotizacion => cotizacion.id_orden_pedido_cabecera_fk);
-    res.status(200).json(pedidosCotizados);
+    let includeOptions = [];
+
+    if (nivelDetalle === 'completo') {
+      includeOptions = [
+        {
+          model: DetalleCotizacion,
+          as: 'detalles',
+          include: [
+            {
+              model: Producto,
+              as: 'producto',
+              include: [
+                {
+                  model: CategoriaProducto,
+                  as: 'categoria'
+                }
+              ]
+            }
+          ]
+        }
+      ];
+    } else if (nivelDetalle === 'conDetalles') {
+      includeOptions = [
+        {
+          model: DetalleCotizacion,
+          as: 'detalles'
+        }
+      ];
+    }
+
+    const cotizaciones = await Cotizacion.findAll({
+      include: includeOptions
+    });
+
+    if (nivelDetalle === 'pedidosCotizados') {
+      const pedidosCotizados = cotizaciones.map(cotizacion => cotizacion.id_orden_pedido_cabecera_fk);
+      return res.status(200).json(pedidosCotizados);
+    }
+
+    res.status(200).json(cotizaciones);
   } catch (error) {
-    console.error('Error al obtener pedidos cotizados:', error);
-    res.status(500).json({ message: 'Error interno del servidor' });
+    console.error(`Error al obtener la información de cotizaciones: ${error.message}`, error);
+    res.status(500).json({ error: 'Error al obtener la información de cotizaciones', detalle: error.message });
   }
 };
 
@@ -402,7 +457,6 @@ exports.actualizarProveedorCotizacion = async (req, res) => {
   }
 };
 
-
 exports.actualizarPedido = async (req, res) => {
   const { id } = req.params;
   try {
@@ -448,7 +502,7 @@ exports.actualizarEstadoCotizacion = async (req, res) => {
 exports.guardarSolicitudCotizacion = async (req, res) => {
   try {
     const nuevaCotizacion = req.body;
-    
+
     // Verificar si la fecha de emisión se proporciona en la solicitud y si es una fecha válida
     if (!nuevaCotizacion.fecha_emision || isNaN(Date.parse(nuevaCotizacion.fecha_emision))) {
       return res.status(400).json({ error: 'La fecha de emisión es obligatoria y debe ser una fecha válida' });
@@ -461,7 +515,8 @@ exports.guardarSolicitudCotizacion = async (req, res) => {
       // Crear la cotización con la fecha de emisión proporcionada dentro de la transacción
       const cotizacion = await Cotizacion.create({
         fecha_emision: nuevaCotizacion.fecha_emision,
-        estado_seguimiento: nuevaCotizacion.estado_seguimiento
+        estado_seguimiento: nuevaCotizacion.estado_seguimiento,
+        rut_empresa: nuevaCotizacion.rut_empresa
         // Otros campos de cotización
       }, { transaction });
 
@@ -491,5 +546,16 @@ exports.guardarSolicitudCotizacion = async (req, res) => {
     // Manejar otros errores que puedan ocurrir durante el proceso de guardado
     console.error(error); // Registrar el error para depuración
     return res.status(500).json({ error: 'Ocurrió un error al procesar la solicitud' });
+  }
+};
+
+exports.cotizacionesNoRegistrado = async (req, res) => {
+  try {
+    // Lógica para obtener cotizaciones no registradas
+    const cotizaciones = await Cotizacion.findAll({ registrado: false });
+    res.status(200).json(cotizaciones);
+  } catch (error) {
+    console.error('Error al obtener cotizaciones no registradas:', error);
+    res.status(500).json({ message: 'Error al obtener cotizaciones no registradas', error });
   }
 };

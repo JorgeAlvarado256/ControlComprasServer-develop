@@ -1,7 +1,7 @@
 const { DataTypes, Model } = require('sequelize');
 const sequelize = require('../../config/db.sequelize');
-const DetalleCotizacion = require('./DetalleCotizacionModel'); // Importa el modelo de DetalleCotizacion
-const {Producto} = require('./ProductoModel'); // Importa el modelo de DetalleCotizacion
+const DetalleCotizacion = require('./DetalleCotizacionModel');
+const Producto = require('./ProductoModel');
 
 class Cotizacion extends Model {}
 
@@ -20,6 +20,10 @@ Cotizacion.init({
     type: DataTypes.STRING(10),
     allowNull: true,
   },
+  rut_empresa: {
+    type: DataTypes.STRING(12),
+    allowNull: true,
+  },
 }, {
   sequelize,
   modelName: 'Cotizacion',
@@ -27,13 +31,8 @@ Cotizacion.init({
   tableName: 'cotizaciones'
 });
 
-// Asocia Cotizacion con DetalleCotizacion
-Cotizacion.hasMany(DetalleCotizacion, {
-  foreignKey: 'id_cotizacion_fk',
-  as: 'detalles', // Nombre de la relación
-});
-DetalleCotizacion.belongsTo(Producto, {
-  foreignKey: 'id_producto', // Campo en DetalleCotizacion que referencia el ID del producto
-  as: 'producto', // Alias para acceder a los datos del producto
-});
+
+Cotizacion.associate = function(models) {
+  Cotizacion.hasMany(models.DetalleCotizacion, { as: 'detalles', foreignKey: 'cotizacionId' });
+};
 module.exports = Cotizacion;

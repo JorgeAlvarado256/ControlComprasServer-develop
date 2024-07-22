@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { Producto } = require('../models/ProductoModel');
+const  Producto  = require('../models/ProductoModel');
 
 exports.obtenerProductos = async (req, res) => {
   try {
